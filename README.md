@@ -1,9 +1,9 @@
-technology
+ENGEHCALL TECHNOLOGY
 ==========
 
 This is a public repository to open source and free material about technology.
 
-All materials listed here was found for free in the Internet available for
+All materials listed here was found for free in the Internet available by
 original authors.
 
 Case you find some material with copyright restriction please contact
@@ -13,4 +13,3 @@ We hope you appreciate these articles and help to divulgate it.
 
 If you have some material you want to share please contact us as well.
 
-ENGEHCALL TECHNOLOGY
