@@ -1,0 +1,734 @@
+
+
+
+
+
+/*
+     FILE ARCHIVED ON 13:35:47 Mar 7, 2007 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 14:14:44 Mai 24, 2013.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+html {
+  background: #fff url("/web/20070307133547/http://www.agabe.com/pt/img/bg_body.gif");
+}
+body {
+  font: 75% arial,verdana,sans-serif;
+  _font: 75% helvetica,verdana,sans-serif;
+  background: transparent url("/web/20070307133547/http://www.agabe.com/pt/img/bg_body.jpg") repeat-y top center;
+  color: #333;
+  text-align: center;
+}
+#geral {
+  width: 760px;
+  margin: 0 auto;
+  border: 0;
+  text-align: left;
+  background: #fff url("/web/20070307133547/http://www.agabe.com/pt/img/bg_topo.jpg") no-repeat;
+}
+.limpa {
+	display: block;
+	clear: both;
+}
+table {
+	height: 100%;
+}
+table tr {
+	background: transparent;
+}
+table td {
+	background: transparent;
+}
+
+/* FORMULÁRIOS */
+
+input {
+	padding: 2px;
+	border: 1px solid #999;
+	font-size: 0.9em;
+}
+textarea {
+	font: 75% arial,verdana,sans-serif;
+	_font: 75% helvetica,verdana,sans-serif;
+	padding: 2px;
+	border: 1px solid #999;
+	font-size: 0.9em;
+}
+.hack_sel {
+	display: block;
+	float: left;
+	clear: right;
+}
+select {
+	padding: 2px;
+	border: 1px solid #999;
+	font-size: 0.9em;
+}
+legend {
+	display: none;
+}
+input.bt {
+	padding: 0;
+	height: 20px;
+	background: #d3d3d3;
+	color: #333;
+	cursor: pointer;
+}
+
+
+/* TOPO */
+
+#topo {
+  clear: both;
+}
+#topo_logo {
+	width: 170px;
+	float: left;
+	clear: left;
+}
+#topo_banner {
+	float: left;
+	width: 400px;
+	padding: 15px 0 0 0;
+}
+#topo_idiomas {
+	padding-top: 43px;
+	width: 190px;
+	float: right;
+	clear: right;
+}
+#topo_idiomas span {
+	display: block;
+	padding: 0 4px 0 0;
+}
+#topo_busca {
+	padding-top: 15px;
+	width: 190px;
+	float: right;
+	clear: right;
+}
+#topo_busca form {
+	padding: 0 0 0 8px;
+}
+#topo_busca form input {
+	width: 120px;
+}
+#topo_busca form input.bt {
+	width: 40px;
+}
+#topo_busca label {
+	display: none;
+}
+
+
+/* MENU */
+
+#menu {
+	height: 23px;
+	background: #898989 url("/web/20070307133547/http://www.agabe.com/pt/img/menu_det.gif") no-repeat 10px 0;
+}
+#menu ul {
+	display: block;
+	margin: 0 0 0 11px;
+	list-style: none;
+}
+#menu ul li {
+	float: left;
+	position: relative;
+	display: inline;
+}
+#menu li:hover ul, #menu li.over ul { 
+	display: block;
+}
+#menu ul li ul {
+	display: none;
+	border: 1px solid #ccc;
+	position: absolute;
+	top: 23px;
+	left: 0;
+	margin: 0;
+	padding: 0;
+}
+#menu ul li ul li {
+	display: block;
+	clear: left;
+	width: 160px;
+	margin: 0;
+	padding: 0;
+}
+#menu ul li ul li a {
+	font-size: 0.9em;
+	color: #666;
+	clear: both;
+	display: block;
+	float: none;
+	height: 20px;
+	margin: 0;
+	padding: 0;
+	background: #ccc url("/web/20070307133547/http://www.agabe.com/pt/img/bgsubmenu.gif") repeat-x;
+}
+#menu ul li ul li a span {
+	padding: 2px 2px 2px 4px;
+}
+#menu ul li ul li a:hover {
+	background: #ccc;
+	color: #333;
+}
+#menu ul li a {
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	float: left;
+	height: 23px;
+	background: transparent url("/web/20070307133547/http://www.agabe.com/pt/img/menu_det.gif") no-repeat top right;
+}
+#menu ul li a:hover {
+	background: #797979 url("/web/20070307133547/http://www.agabe.com/pt/img/menu_det.gif") no-repeat top right;
+}
+#menu ul li a span {
+	display: block;
+	padding: 3px 15px 0 14px;
+}
+
+
+/* MENU */
+
+#rodape {
+	clear: both;
+}
+#rodape_atalhos {
+	text-align: center;
+	font-size: 0.9em;
+	color: #ccc;
+	padding: 10px 3px 3px 3px;
+}
+#rodape_img {
+	clear: both;
+	height: 140px;
+	background: #ccc url("/web/20070307133547/http://www.agabe.com/pt/img/bg_rodape.jpg");
+}
+#rodape_menu {
+	clear: both;
+	height: 23px;
+	background: #898989 url("/web/20070307133547/http://www.agabe.com/pt/img/menu_det.gif") no-repeat 173px 0;
+}
+#rodape_menu ul {
+	display: block;
+	margin: 0 0 0 175px;
+	list-style: none;
+}
+#rodape_menu ul li {
+	float: left;
+	position: relative;
+	display: inline;
+}
+#rodape_menu ul li a {
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	float: left;
+	height: 23px;
+	background: transparent url("/web/20070307133547/http://www.agabe.com/pt/img/menu_det.gif") no-repeat top right;
+}
+#rodape_menu ul li a:hover {
+	background: #797979 url("/web/20070307133547/http://www.agabe.com/pt/img/menu_det.gif") no-repeat top right;
+}
+#rodape_menu ul li a span {
+	display: block;
+	padding: 3px 15px 0 14px;
+}
+#rodape_add {
+	clear: both;
+	font-size: 0.9em;
+	padding: 2px;
+	text-align: center;
+}
+
+
+/* HOME */
+
+.box_home {
+	border: 1px solid #fff;
+	margin: 15px 15px 0 5px;
+	_margin: 15px 15px -15px 5px;
+	z-index: 0;
+}
+.box_home table {
+	width: 738px;
+	background: transparent url("/web/20070307133547/http://www.agabe.com/pt/img/bg_box_home.gif");
+}
+.home_cb {
+	background: transparent url("/web/20070307133547/http://www.agabe.com/pt/img/bg_box_homec.gif") no-repeat;
+	height: 1px;
+}
+.home_cba {
+	_margin-top: -14px;
+	clear: both;
+}
+.home_txt {
+	padding: 10px;
+	font-size: 0.9em;
+}
+.home_txt dt {
+	font-weight: bold;
+	color: #333;
+}
+.home_txt dt a {
+	color: #333;
+	text-decoration: none;
+}
+.home_txt dt a:hover {
+	color: #666;
+	text-decoration: underline;
+}
+.home_txt dd {
+	color: #999;
+	padding: 0 0 7px 15px;
+}
+.home_txt dd a {
+	color: #333;
+}
+.home_txt dd a:hover {
+	color: #666;
+}
+.home_img {
+	width: 380px;
+	padding: 10px 0 10px 0;
+}
+.home_txt dd  form {
+	padding: 0 0 0 8px;
+}
+.home_txt dd  form input {
+	width: 120px;
+}
+.home_txt dd  form input.bt {
+	width: 40px;
+}
+.home_txt dd  label {
+	display: none;
+}
+
+
+/* TEXTOS */
+
+a:link {color: #000}
+a:visited {color: #000}
+a:hover {color: #666}
+a:active {color: #000}
+.caminho {
+	display: block;
+	padding: 10px 0 10px 20px;
+	font-size: 0.9em;
+}
+.sIFR-flash {
+	visibility: visible !important;
+	margin: 0;
+}
+
+.sIFR-replaced {
+	visibility: visible !important;
+}
+
+span.sIFR-alternate {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 0;
+	height: 0;
+	display: block;
+	overflow: hidden;
+	background: #fff;
+}
+.sIFR-hasFlash h2 {
+	width: 380px;
+	visibility: hidden;
+	font-size: 10pt;
+	padding: 0 20px 15px 20px;
+	background: #fff;
+}
+.sIFR-hasFlash h3 {
+	width: 380px;
+	visibility: hidden;
+	font-size: 6pt;
+	padding: 0 20px 15px 20px;
+	background: #fff;
+}
+.sIFR-hasFlash h4 {
+	width: 380px;
+	visibility: hidden;
+	font-size: 8pt;
+	padding: 0 20px 5px 20px;
+	background: #fff;
+}
+img.tl {
+	float: right;
+	clear: both;
+	padding: 0 20px 15px 20px;
+}
+img.produto {
+	float: right;
+	margin: 15px;
+}
+#diagrama p {
+	padding: 0 20px 15px 20px;
+}
+b {
+	font-family: arial,verdana,sans-serif;
+}
+strong {
+	font-family: arial,verdana,sans-serif;
+}
+#diagrama p.center {
+	text-align: center;
+}
+#diagrama ul {
+	padding: 0 20px 10px 40px;
+}
+#diagrama ul li {
+	padding: 0 0 5px 0;
+}
+.img1 {
+	border: 1px solid #000;
+	float: right;
+	margin: 20px;
+}
+.img2 {
+	float: right;
+	margin: 20px;
+}
+
+/* CONTATO */
+
+#contato {
+	width: 350px;
+	display: block;
+	margin: 15px 0 15px 190px;
+	padding: 15px;
+	border: 1px solid #ccc;
+	background: #f6f6f6 url("/web/20070307133547/http://www.agabe.com/pt/img/bg_form.gif") no-repeat;
+}
+#contato label {
+	display: block;
+	width: 120px;
+	text-align: right;
+	clear: left;
+	float: left;
+	padding: 2px;
+}
+#contato input {
+	clear: right;
+	float: left;
+	width: 200px;
+	margin: 2px;
+}
+#contato #ddd {
+	width: 30px;
+}
+#contato #tel {
+	width: 120px;
+}
+#contato #telefone {
+	width: 120px;
+}
+#contato textarea {
+	clear: right;
+	float: left;
+	width: 200px;
+	height: 100px;
+	margin: 2px;
+}
+#contato select {
+	clear: right;
+	float: left;
+	width: 200px;
+	margin: 2px;
+}
+#contato input.bt {
+	margin: 15px 20px 0 0;
+	width: 60px;
+	float: right;
+}
+
+
+/* SERIGRAFIA */
+
+.box1{
+	margin: 20px 20px 0 20px;
+	_margin: 20px 20px -15px 20px;
+	z-index: 0;
+}
+.box1_cb {
+	width: 720px;
+	background: transparent url("/web/20070307133547/http://www.agabe.com/pt/img/bg_box_homec.gif") no-repeat;
+	height: 1px;
+}
+.box1_cba {
+	display: block;
+	_margin-top: -14px;
+	clear: both;
+}
+.box1_img {
+	width: 360px;
+	padding: 20px 0 20px 0;
+}
+.box1 table {
+	background: transparent url("/web/20070307133547/http://www.agabe.com/pt/img/bg_box1.gif");
+}
+.box1_txt {
+	width: 360px;
+	font-size: 1em;
+}
+.box1_txt p {
+	padding: 10px;
+}
+
+
+.box2{
+	margin: 20px 20px 0 20px;
+	_margin: 20px 20px -15px 20px;
+	z-index: 0;
+}
+.box2_cb {
+	width: 720px;
+	background: transparent url("/web/20070307133547/http://www.agabe.com/pt/img/bg_box_homec.gif") no-repeat;
+	height: 1px;
+}
+.box2_cba {
+	display: block;
+	_margin-top: -14px;
+	clear: both;
+}
+.box2_img {
+	width: 335px;
+	padding: 20px 0 20px 0;
+}
+.box2 table {
+	background: transparent url("/web/20070307133547/http://www.agabe.com/pt/img/bg_box1.gif");
+}
+.box2_txt {
+	width: 385px;
+	font-size: 1em;
+}
+.box2_txt p {
+	padding: 10px 30px 10px 15px;
+}
+.box2_txt ul {
+	padding: 10px 30px 10px 30px;
+	list-style-image: url("/web/20070307133547/http://www.agabe.com/pt/img/traco.gif");
+}
+.box2_txt a {
+	text-decoration: none;
+}
+
+
+.box3 {
+	border: 1px solid #7f7f7d;
+	margin: 20px 20px 0 20px;
+}
+.box3_img {
+	width: 294px;
+}
+.box3_img img {
+	padding: 10px 0 10px 0;
+}
+.box3_txt {
+	width: 426px;
+}
+.box3_txt ul {
+	padding: 10px 30px 10px 30px;
+	list-style-image: url("/web/20070307133547/http://www.agabe.com/pt/img/traco.gif");
+}
+.box3_txt a {
+	text-decoration: none;
+}
+
+
+/* PDF */
+
+#pdf {
+	margin: 20px;
+	_margin: 20px 10px 20px 20px;
+	width: 170px;
+	border: 1px solid #ccc;
+	float: right;
+	clear: right;
+	font-size: 0.9em;
+}
+#pdf h5 {
+	font-size: 1.2em;
+	font-weight: bold;
+	color: #E59A1A;
+	padding: 0 10px 10px 10px;
+}
+#pdf a {
+	color: #666;
+	text-decoration: none;
+}
+#pdf a:hover {
+	color: #000;
+}
+a.pdf_ico {
+	display: block;
+	padding: 10px 10px 10px 40px;
+	background: transparent url("/web/20070307133547/http://www.agabe.com/pt/img/icopdf.jpg") no-repeat 5px 5px;
+}
+a.pdf_fispq {
+	display: block;
+	padding: 2px 5px 2px 5px;
+	margin: 0 0 10px 0;
+}
+a.pdf_fispq:hover {
+	background: #eee;
+}
+a.pdf_adobe {
+	display: block;
+	padding: 0 10px 10px 10px;
+	text-align: center;
+}
+
+
+/* TABELAS */
+
+table.manual {
+	border-collapse: collapse;
+	width: 500px;
+	margin: 10px 0 20px 125px;
+}
+table.manual th {
+	border: 1px solid #ccc;
+	background: #F6F6F6;
+	color: #000;
+	font-weight: normal;
+	text-align: center;
+	padding: 3px;
+}
+table.manual td {
+	border: 1px solid #ccc;
+	padding: 3px;
+}
+
+
+table.manual2 {
+	border-collapse: collapse;
+	width: 600px;
+	margin: 10px 0 20px 75px;
+}
+table.manual2 th {
+	border: 1px solid #ccc;
+	background: #F6F6F6;
+	color: #000;
+	font-weight: normal;
+	text-align: center;
+	padding: 3px;
+}
+table.manual2 td {
+	border: 1px solid #ccc;
+	padding: 3px;
+}
+
+
+
+.letras {
+	float: left;
+	text-align: center;
+	display: block;
+	width: 17px;
+	padding: 2px;
+	margin: 2px;
+	border: 1px solid #ccc;
+	text-decoration: none;
+}
+.letras:hover {
+	background: #f2f2f2;
+	border: 1px solid #666;
+	color: #000;
+}
+.obrigado {
+	margin: 20px;
+	border: 1px solid #999;
+}
+
+hr.linha {
+	border: 1px solid #ccc;
+	margin: 20px;
+}
+#f_fispq {
+	background: #f2f2f2;
+	margin: 10px;
+	padding: 10px;
+	border: 1px solid #999;
+}
+#f_fispq label {
+	display: block;
+	float: none;
+	width:297px;
+	text-align: center;
+}
+#f_fispq textarea {
+	display: block;
+	float: none;
+	width: 297px;
+}
+
+
+
+/* ACPLICAÇÕES */
+
+#prod_aplic {
+	border-collapse: collapse;
+}
+#prod_aplic tr td.prod_tipo_ce2{
+	text-align: left;;
+	border: 0px solid #ccc;
+	padding: 2px;
+}
+#prod_aplic tr td.prod_tipo_ce2 select{
+	width: 250px;
+}
+#prod_aplic tr td.prod_tipo_ce3{
+	text-align: center;
+	border: 0;
+	padding: 2px;
+}
+#prod_aplic tr td.prod_tipo_ce {
+	width: 170px;
+	text-align: right;
+	background: #eee;
+	border: 1px solid #ccc;
+	padding: 2px;
+}
+#prod_aplic tr td .bt {
+	margin: 5px;
+}
+#prod_aplic2 {
+	width: 550px;
+	margin: 15px;
+	border-collapse: collapse;
+}
+#prod_aplic2 td{
+	border: 1px solid #ccc;
+}
+
+
+#prod_aplic_form p {
+	margin-left: 190px;
+	margin-bottom: 10px;
+}
+#prod_aplic_form h3 {
+	margin-left: 190px;
+	text-align: center;
+}
+
+
+#float {
+	position: absolute;
+	margin-top: -8px;
+	margin-left: 100px;
+}

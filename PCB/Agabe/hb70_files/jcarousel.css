@@ -1,0 +1,2302 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<link rel="icon" href="http://www.agabe.com/img/favicon.ico" type="image/x-icon" />
+
+    <link href='http://www.agabe.com/img/favicon.png' rel='shortcut icon'/>
+
+    <link href='http://www.agabe.com/img/favicon.png' rel='apple-touch-icon'/>
+
+    <link href='http://www.agabe.com/img/favicon.png' rel='shortcut icon' type='image/x-icon'/>
+	
+	<link href='http://www.agabe.com/img/favicon.ico' rel='shortcut icon' type='image/vnd.microsoft.icon'/>
+	
+	<link href='http://www.agabe.com/img/favicon.ico' rel='icon'/> 
+	
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>
+		Agabê |
+		Missing Controller
+	</title>
+	<meta name="keywords" content="agabe, produtos serigraficos, serigrafia, emulsoes, quimicos, tecidos tecnicos, versaidag, tensionamento da matriz, preparacao do tecido, confeccao de positivos, confeccao de negativos, revelacao da matriz, acabamento, tratamentos posteriores, impressão, reaproveitamento do tecido, produtos para sistemas automáticos de limpeza, silk screen" />
+	<meta name="description" content="Agabê é uma empresa brasileira com mais de 40 anos de trabalho para o progresso da serigrafia. Com a mais avançada tecnologia e dentro dos mais altos níveis de qualidade, especializou-se na fabricação e desenvolvimento de produtos para preparação e recuperação de matrizes serigráficas." />
+	
+	<script type="text/javascript">
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-16156929-1']);
+		_gaq.push(['_trackPageview']);
+
+		(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+	</script>
+
+	
+	<link rel="stylesheet" type="text/css" href="/css/layout.css" />
+	<link rel="stylesheet" type="text/css" href="/css/conteudo.css" />
+	<link rel="stylesheet" type="text/css" href="/css/format.css" />
+
+	<script type="text/javascript" src="/js/jquery-1.4.3.min.js"></script>
+	<script type="text/javascript" src="/js/javascript.js"></script>
+	
+	<script type="text/javascript">
+
+	/*<![CDATA[*/
+	$(document).ready(function() {
+		//menu conteudo hover
+			$("#nav li").hover(
+				function() {
+					$(this).addClass("over");
+					$("a.show", this).addClass("hover");
+				},
+				function() {
+					$(this).removeClass("over");
+					$("a.show", this).removeClass("hover");
+				}
+			);
+		
+		//form texto inicial
+			$(".userText").focus(function(srcc)
+			{
+			    if ($(this).val() == $(this)[0].title)
+			    {
+			        $(this).removeClass("initText");
+			        $(this).val("");
+			    }
+			});
+			$(".userText").blur(function()
+			{
+			    if ($(this).val() == "")
+			    {
+			        $(this).addClass("initText");
+			        $(this).val($(this)[0].title);
+			    }
+			});
+			$(".userText").blur();
+			
+	});
+	
+	function MM_findObj(n, d) { //v4.0
+	var p,i,x; if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+	d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+	if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+	for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+	if(!x && document.getElementById) x=document.getElementById(n); return x;
+	}
+	function MM_showHideLayers() { //v3.0
+	var i,p,v,obj,args=MM_showHideLayers.arguments;
+	for (i=0; i<(args.length-2); i+=3) if ((obj=MM_findObj(args[i]))!=null) { v=args[i+2];
+	if (obj.style) { obj=obj.style; v=(v=='show')?'visible':(v='hide')?'hidden':v; }
+	obj.visibility=v; }
+	}
+	/*]]>*/
+	</script>
+	
+<script type="text/javascript">var switchTo5x=true;</script><script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script><script type="text/javascript">stLight.options({publisher:'25e08209-079d-4c75-b51b-71d88ff146de'});</script>
+
+
+	
+</head>
+
+<body class="css jcarousel.css">
+<body bgcolor="#FFF">
+<div id="SocialMedia">
+<span  class='st_facebook_large' ></span><br /><span  class='st_twitter_large' ></span><br /><span  class='st_linkedin_large' ></span><br /><span  class='st_gbuzz_large' ></span><br /><span  class='st_email_large' ></span><br />
+<span class="st_fblike_vcount" ></span>
+
+</div>
+
+</body>
+	<div id="topo">
+	
+		<div class="trava">
+
+			<h1><a href="/">Agabê</a></h1>
+			<div class="txt-header">
+			
+			<script type="text/javascript">
+			/*	$(function() {
+				var max = -1;
+				$("ul#drop-menu li ul li").each(function() {
+				var h = $(this).html().length; 
+				h =+280;
+				max = h > max ? h : max;
+				$(this).parent('ul').css('width',max);
+				});	
+			});
+			*/
+		</script>
+		A moeda forte da sua empresa<a href="/css/jcarousel.css"></a>        </div>
+			<!--<ul class="linguas">
+				<li>
+<pre class="cake-debug">
+<a href='javascript:void(0);' onclick='document.getElementById("CakeStackTrace1").style.display = (document.getElementById("CakeStackTrace1").style.display == "none" ? "" : "none")'><b>Notice</b> (8)</a>: Undefined variable: languages [<b>APP/views/layouts/default.ctp</b>, line <b>175</b>]
+</pre>
+<div id="CakeStackTrace1" class="cake-stack-trace" style="display: none;"><a href='javascript:void(0);' onclick='document.getElementById("CakeErrorCode1").style.display = (document.getElementById("CakeErrorCode1").style.display == "none" ? "" : "none")'>Code</a> | <a href='javascript:void(0);' onclick='document.getElementById("CakeErrorContext1").style.display = (document.getElementById("CakeErrorContext1").style.display == "none" ? "" : "none")'>Context</a><pre id="CakeErrorContext1" class="cake-context" style="display: none;">$___viewFn	=	"/home/agabe/public_html/app/views/layouts/default.ctp"
+$___dataForView	=	array(
+	"controller" => "CssController",
+	"controllerName" => "Css",
+	"title_for_layout" => "Missing Controller",
+	"content_for_layout" => "&lt;h2&gt;Missing Controller&lt;/h2&gt;
+&lt;p class=&quot;error&quot;&gt;
+	&lt;strong&gt;Error: &lt;/strong&gt;
+	&lt;em&gt;CssController&lt;/em&gt; could not be found.&lt;/p&gt;
+&lt;p class=&quot;error&quot;&gt;
+	&lt;strong&gt;Error: &lt;/strong&gt;
+	Create the class &lt;em&gt;CssController&lt;/em&gt; below in file: app/controllers/css_controller.php&lt;/p&gt;
+&lt;pre&gt;
+&amp;lt;?php
+class CssController extends AppController {
+
+	var $name = &#039;Css&#039;;
+}
+?&amp;gt;
+&lt;/pre&gt;
+&lt;p class=&quot;notice&quot;&gt;
+	&lt;strong&gt;Notice: &lt;/strong&gt;
+	If you want to customize this error message, create app/views/errors/missing_controller.ctp&lt;/p&gt;",
+	"scripts_for_layout" => "",
+	"cakeDebug" => "",
+	"html" => HtmlHelper
+HtmlHelper::$tags = array
+HtmlHelper::$base = ""
+HtmlHelper::$here = NULL
+HtmlHelper::$params = array
+HtmlHelper::$action = NULL
+HtmlHelper::$data = array
+HtmlHelper::$_crumbs = array
+HtmlHelper::$__docTypes = array
+HtmlHelper::$helpers = NULL
+HtmlHelper::$webroot = "/"
+HtmlHelper::$themeWeb = NULL
+HtmlHelper::$plugin = NULL
+HtmlHelper::$namedArgs = NULL
+HtmlHelper::$argSeparator = NULL
+HtmlHelper::$validationErrors = NULL
+HtmlHelper::$__tainted = NULL
+HtmlHelper::$__cleaned = NULL
+HtmlHelper::$_log = NULL,
+	"form" => FormHelper
+FormHelper::$helpers = array
+FormHelper::$fieldset = array
+FormHelper::$__options = array
+FormHelper::$fields = array
+FormHelper::$requestType = NULL
+FormHelper::$base = ""
+FormHelper::$webroot = "/"
+FormHelper::$themeWeb = NULL
+FormHelper::$here = NULL
+FormHelper::$params = array
+FormHelper::$action = NULL
+FormHelper::$plugin = NULL
+FormHelper::$data = array
+FormHelper::$namedArgs = NULL
+FormHelper::$argSeparator = NULL
+FormHelper::$validationErrors = NULL
+FormHelper::$tags = array
+FormHelper::$__tainted = NULL
+FormHelper::$__cleaned = NULL
+FormHelper::$_log = NULL
+FormHelper::$Html = HtmlHelper object,
+	"javascript" => JavascriptHelper
+JavascriptHelper::$useNative = true
+JavascriptHelper::$enabled = true
+JavascriptHelper::$safe = false
+JavascriptHelper::$tags = array
+JavascriptHelper::$_blockOptions = array
+JavascriptHelper::$_cachedEvents = array
+JavascriptHelper::$_cacheEvents = false
+JavascriptHelper::$_cacheToFile = false
+JavascriptHelper::$_cacheAll = false
+JavascriptHelper::$_rules = array
+JavascriptHelper::$__scriptBuffer = NULL
+JavascriptHelper::$helpers = NULL
+JavascriptHelper::$base = ""
+JavascriptHelper::$webroot = "/"
+JavascriptHelper::$themeWeb = NULL
+JavascriptHelper::$here = NULL
+JavascriptHelper::$params = array
+JavascriptHelper::$action = NULL
+JavascriptHelper::$plugin = NULL
+JavascriptHelper::$data = array
+JavascriptHelper::$namedArgs = NULL
+JavascriptHelper::$argSeparator = NULL
+JavascriptHelper::$validationErrors = NULL
+JavascriptHelper::$__tainted = NULL
+JavascriptHelper::$__cleaned = NULL
+JavascriptHelper::$_log = NULL,
+	"date" => DateHelper
+DateHelper::$helpers = NULL
+DateHelper::$base = ""
+DateHelper::$webroot = "/"
+DateHelper::$themeWeb = NULL
+DateHelper::$here = NULL
+DateHelper::$params = array
+DateHelper::$action = NULL
+DateHelper::$plugin = NULL
+DateHelper::$data = array
+DateHelper::$namedArgs = NULL
+DateHelper::$argSeparator = NULL
+DateHelper::$validationErrors = NULL
+DateHelper::$tags = array
+DateHelper::$__tainted = NULL
+DateHelper::$__cleaned = NULL
+DateHelper::$_log = NULL,
+	"session" => SessionHelper
+SessionHelper::$helpers = NULL
+SessionHelper::$__active = true
+SessionHelper::$valid = false
+SessionHelper::$error = false
+SessionHelper::$_userAgent = "9e74af2a14bc382a51e195f422692085"
+SessionHelper::$path = "/"
+SessionHelper::$lastError = NULL
+SessionHelper::$security = NULL
+SessionHelper::$time = 1369411736
+SessionHelper::$sessionTime = false
+SessionHelper::$watchKeys = array
+SessionHelper::$id = NULL
+SessionHelper::$_started = true
+SessionHelper::$host = NULL
+SessionHelper::$_log = NULL
+SessionHelper::$cookieLifeTime = 788940000
+SessionHelper::$base = ""
+SessionHelper::$webroot = "/"
+SessionHelper::$here = NULL
+SessionHelper::$params = array
+SessionHelper::$action = NULL
+SessionHelper::$data = array
+SessionHelper::$themeWeb = NULL
+SessionHelper::$plugin = NULL
+)
+$loadHelpers	=	false
+$cached	=	true
+$loadedHelpers	=	array()
+$controller	=	"CssController"
+$controllerName	=	"Css"
+$title_for_layout	=	"Missing Controller"
+$content_for_layout	=	"&lt;h2&gt;Missing Controller&lt;/h2&gt;
+&lt;p class=&quot;error&quot;&gt;
+	&lt;strong&gt;Error: &lt;/strong&gt;
+	&lt;em&gt;CssController&lt;/em&gt; could not be found.&lt;/p&gt;
+&lt;p class=&quot;error&quot;&gt;
+	&lt;strong&gt;Error: &lt;/strong&gt;
+	Create the class &lt;em&gt;CssController&lt;/em&gt; below in file: app/controllers/css_controller.php&lt;/p&gt;
+&lt;pre&gt;
+&amp;lt;?php
+class CssController extends AppController {
+
+	var $name = &#039;Css&#039;;
+}
+?&amp;gt;
+&lt;/pre&gt;
+&lt;p class=&quot;notice&quot;&gt;
+	&lt;strong&gt;Notice: &lt;/strong&gt;
+	If you want to customize this error message, create app/views/errors/missing_controller.ctp&lt;/p&gt;"
+$scripts_for_layout	=	""
+$cakeDebug	=	""
+$html	=	HtmlHelper
+HtmlHelper::$tags = array
+HtmlHelper::$base = ""
+HtmlHelper::$here = NULL
+HtmlHelper::$params = array
+HtmlHelper::$action = NULL
+HtmlHelper::$data = array
+HtmlHelper::$_crumbs = array
+HtmlHelper::$__docTypes = array
+HtmlHelper::$helpers = NULL
+HtmlHelper::$webroot = "/"
+HtmlHelper::$themeWeb = NULL
+HtmlHelper::$plugin = NULL
+HtmlHelper::$namedArgs = NULL
+HtmlHelper::$argSeparator = NULL
+HtmlHelper::$validationErrors = NULL
+HtmlHelper::$__tainted = NULL
+HtmlHelper::$__cleaned = NULL
+HtmlHelper::$_log = NULL
+$form	=	FormHelper
+FormHelper::$helpers = array
+FormHelper::$fieldset = array
+FormHelper::$__options = array
+FormHelper::$fields = array
+FormHelper::$requestType = NULL
+FormHelper::$base = ""
+FormHelper::$webroot = "/"
+FormHelper::$themeWeb = NULL
+FormHelper::$here = NULL
+FormHelper::$params = array
+FormHelper::$action = NULL
+FormHelper::$plugin = NULL
+FormHelper::$data = array
+FormHelper::$namedArgs = NULL
+FormHelper::$argSeparator = NULL
+FormHelper::$validationErrors = NULL
+FormHelper::$tags = array
+FormHelper::$__tainted = NULL
+FormHelper::$__cleaned = NULL
+FormHelper::$_log = NULL
+FormHelper::$Html = HtmlHelper object
+$javascript	=	JavascriptHelper
+JavascriptHelper::$useNative = true
+JavascriptHelper::$enabled = true
+JavascriptHelper::$safe = false
+JavascriptHelper::$tags = array
+JavascriptHelper::$_blockOptions = array
+JavascriptHelper::$_cachedEvents = array
+JavascriptHelper::$_cacheEvents = false
+JavascriptHelper::$_cacheToFile = false
+JavascriptHelper::$_cacheAll = false
+JavascriptHelper::$_rules = array
+JavascriptHelper::$__scriptBuffer = NULL
+JavascriptHelper::$helpers = NULL
+JavascriptHelper::$base = ""
+JavascriptHelper::$webroot = "/"
+JavascriptHelper::$themeWeb = NULL
+JavascriptHelper::$here = NULL
+JavascriptHelper::$params = array
+JavascriptHelper::$action = NULL
+JavascriptHelper::$plugin = NULL
+JavascriptHelper::$data = array
+JavascriptHelper::$namedArgs = NULL
+JavascriptHelper::$argSeparator = NULL
+JavascriptHelper::$validationErrors = NULL
+JavascriptHelper::$__tainted = NULL
+JavascriptHelper::$__cleaned = NULL
+JavascriptHelper::$_log = NULL
+$date	=	DateHelper
+DateHelper::$helpers = NULL
+DateHelper::$base = ""
+DateHelper::$webroot = "/"
+DateHelper::$themeWeb = NULL
+DateHelper::$here = NULL
+DateHelper::$params = array
+DateHelper::$action = NULL
+DateHelper::$plugin = NULL
+DateHelper::$data = array
+DateHelper::$namedArgs = NULL
+DateHelper::$argSeparator = NULL
+DateHelper::$validationErrors = NULL
+DateHelper::$tags = array
+DateHelper::$__tainted = NULL
+DateHelper::$__cleaned = NULL
+DateHelper::$_log = NULL
+$session	=	SessionHelper
+SessionHelper::$helpers = NULL
+SessionHelper::$__active = true
+SessionHelper::$valid = false
+SessionHelper::$error = false
+SessionHelper::$_userAgent = "9e74af2a14bc382a51e195f422692085"
+SessionHelper::$path = "/"
+SessionHelper::$lastError = NULL
+SessionHelper::$security = NULL
+SessionHelper::$time = 1369411736
+SessionHelper::$sessionTime = false
+SessionHelper::$watchKeys = array
+SessionHelper::$id = NULL
+SessionHelper::$_started = true
+SessionHelper::$host = NULL
+SessionHelper::$_log = NULL
+SessionHelper::$cookieLifeTime = 788940000
+SessionHelper::$base = ""
+SessionHelper::$webroot = "/"
+SessionHelper::$here = NULL
+SessionHelper::$params = array
+SessionHelper::$action = NULL
+SessionHelper::$data = array
+SessionHelper::$themeWeb = NULL
+SessionHelper::$plugin = NULL
+$server	=	"agabe.com"
+$endereco	=	"/css/jcarousel.css"
+$servidor	=	"http://agabe.com/css/jcarousel.css"
+$num	=	1</pre><div id="CakeErrorCode1" class="cake-code-dump" style="display: none;"><pre><code><span style="color: #000000">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;</span></code>
+<code><span style="color: #000000">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;!--&lt;ul&nbsp;class="linguas"&gt;</span></code>
+<span class="code-highlight"><code><span style="color: #000000">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;<span style="color: #0000BB">&lt;?php&nbsp;</span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">$html</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">link</span><span style="color: #007700">(</span><span style="color: #0000BB">$languages</span><span style="color: #007700">[</span><span style="color: #DD0000">'pt'</span><span style="color: #007700">],&nbsp;</span><span style="color: #DD0000">'/pt'</span><span style="color: #007700">,&nbsp;array(</span><span style="color: #DD0000">'class'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">'pt'</span><span style="color: #007700">)&nbsp;);&nbsp;</span><span style="color: #0000BB">?&gt;</span>&lt;/li&gt;</span></code></span>
+</pre></div><pre>include - APP/views/layouts/default.ctp, line 175
+View::_render() - CORE/cake/libs/view/view.php, line 665
+View::renderLayout() - CORE/cake/libs/view/view.php, line 453
+View::render() - CORE/cake/libs/view/view.php, line 387
+Controller::render() - CORE/cake/libs/controller/controller.php, line 808
+ErrorHandler::_outputMessage() - CORE/cake/libs/error.php, line 372
+ErrorHandler::missingController() - CORE/cake/libs/error.php, line 173
+Object::dispatchMethod() - CORE/cake/libs/object.php, line 117
+ErrorHandler::__construct() - CORE/cake/libs/error.php, line 117
+Object::cakeError() - CORE/cake/libs/object.php, line 202
+Dispatcher::dispatch() - CORE/cake/dispatcher.php, line 135
+[main] - APP/webroot/index.php, line 87</pre></div><a href="/pt" class="pt"></a></li>
+				<li>
+<pre class="cake-debug">
+<a href='javascript:void(0);' onclick='document.getElementById("CakeStackTrace2").style.display = (document.getElementById("CakeStackTrace2").style.display == "none" ? "" : "none")'><b>Notice</b> (8)</a>: Undefined variable: languages [<b>APP/views/layouts/default.ctp</b>, line <b>176</b>]
+</pre>
+<div id="CakeStackTrace2" class="cake-stack-trace" style="display: none;"><a href='javascript:void(0);' onclick='document.getElementById("CakeErrorCode2").style.display = (document.getElementById("CakeErrorCode2").style.display == "none" ? "" : "none")'>Code</a> | <a href='javascript:void(0);' onclick='document.getElementById("CakeErrorContext2").style.display = (document.getElementById("CakeErrorContext2").style.display == "none" ? "" : "none")'>Context</a><pre id="CakeErrorContext2" class="cake-context" style="display: none;">$___viewFn	=	"/home/agabe/public_html/app/views/layouts/default.ctp"
+$___dataForView	=	array(
+	"controller" => "CssController",
+	"controllerName" => "Css",
+	"title_for_layout" => "Missing Controller",
+	"content_for_layout" => "&lt;h2&gt;Missing Controller&lt;/h2&gt;
+&lt;p class=&quot;error&quot;&gt;
+	&lt;strong&gt;Error: &lt;/strong&gt;
+	&lt;em&gt;CssController&lt;/em&gt; could not be found.&lt;/p&gt;
+&lt;p class=&quot;error&quot;&gt;
+	&lt;strong&gt;Error: &lt;/strong&gt;
+	Create the class &lt;em&gt;CssController&lt;/em&gt; below in file: app/controllers/css_controller.php&lt;/p&gt;
+&lt;pre&gt;
+&amp;lt;?php
+class CssController extends AppController {
+
+	var $name = &#039;Css&#039;;
+}
+?&amp;gt;
+&lt;/pre&gt;
+&lt;p class=&quot;notice&quot;&gt;
+	&lt;strong&gt;Notice: &lt;/strong&gt;
+	If you want to customize this error message, create app/views/errors/missing_controller.ctp&lt;/p&gt;",
+	"scripts_for_layout" => "",
+	"cakeDebug" => "",
+	"html" => HtmlHelper
+HtmlHelper::$tags = array
+HtmlHelper::$base = ""
+HtmlHelper::$here = NULL
+HtmlHelper::$params = array
+HtmlHelper::$action = NULL
+HtmlHelper::$data = array
+HtmlHelper::$_crumbs = array
+HtmlHelper::$__docTypes = array
+HtmlHelper::$helpers = NULL
+HtmlHelper::$webroot = "/"
+HtmlHelper::$themeWeb = NULL
+HtmlHelper::$plugin = NULL
+HtmlHelper::$namedArgs = NULL
+HtmlHelper::$argSeparator = NULL
+HtmlHelper::$validationErrors = NULL
+HtmlHelper::$__tainted = NULL
+HtmlHelper::$__cleaned = NULL
+HtmlHelper::$_log = NULL,
+	"form" => FormHelper
+FormHelper::$helpers = array
+FormHelper::$fieldset = array
+FormHelper::$__options = array
+FormHelper::$fields = array
+FormHelper::$requestType = NULL
+FormHelper::$base = ""
+FormHelper::$webroot = "/"
+FormHelper::$themeWeb = NULL
+FormHelper::$here = NULL
+FormHelper::$params = array
+FormHelper::$action = NULL
+FormHelper::$plugin = NULL
+FormHelper::$data = array
+FormHelper::$namedArgs = NULL
+FormHelper::$argSeparator = NULL
+FormHelper::$validationErrors = NULL
+FormHelper::$tags = array
+FormHelper::$__tainted = NULL
+FormHelper::$__cleaned = NULL
+FormHelper::$_log = NULL
+FormHelper::$Html = HtmlHelper object,
+	"javascript" => JavascriptHelper
+JavascriptHelper::$useNative = true
+JavascriptHelper::$enabled = true
+JavascriptHelper::$safe = false
+JavascriptHelper::$tags = array
+JavascriptHelper::$_blockOptions = array
+JavascriptHelper::$_cachedEvents = array
+JavascriptHelper::$_cacheEvents = false
+JavascriptHelper::$_cacheToFile = false
+JavascriptHelper::$_cacheAll = false
+JavascriptHelper::$_rules = array
+JavascriptHelper::$__scriptBuffer = NULL
+JavascriptHelper::$helpers = NULL
+JavascriptHelper::$base = ""
+JavascriptHelper::$webroot = "/"
+JavascriptHelper::$themeWeb = NULL
+JavascriptHelper::$here = NULL
+JavascriptHelper::$params = array
+JavascriptHelper::$action = NULL
+JavascriptHelper::$plugin = NULL
+JavascriptHelper::$data = array
+JavascriptHelper::$namedArgs = NULL
+JavascriptHelper::$argSeparator = NULL
+JavascriptHelper::$validationErrors = NULL
+JavascriptHelper::$__tainted = NULL
+JavascriptHelper::$__cleaned = NULL
+JavascriptHelper::$_log = NULL,
+	"date" => DateHelper
+DateHelper::$helpers = NULL
+DateHelper::$base = ""
+DateHelper::$webroot = "/"
+DateHelper::$themeWeb = NULL
+DateHelper::$here = NULL
+DateHelper::$params = array
+DateHelper::$action = NULL
+DateHelper::$plugin = NULL
+DateHelper::$data = array
+DateHelper::$namedArgs = NULL
+DateHelper::$argSeparator = NULL
+DateHelper::$validationErrors = NULL
+DateHelper::$tags = array
+DateHelper::$__tainted = NULL
+DateHelper::$__cleaned = NULL
+DateHelper::$_log = NULL,
+	"session" => SessionHelper
+SessionHelper::$helpers = NULL
+SessionHelper::$__active = true
+SessionHelper::$valid = false
+SessionHelper::$error = false
+SessionHelper::$_userAgent = "9e74af2a14bc382a51e195f422692085"
+SessionHelper::$path = "/"
+SessionHelper::$lastError = NULL
+SessionHelper::$security = NULL
+SessionHelper::$time = 1369411736
+SessionHelper::$sessionTime = false
+SessionHelper::$watchKeys = array
+SessionHelper::$id = NULL
+SessionHelper::$_started = true
+SessionHelper::$host = NULL
+SessionHelper::$_log = NULL
+SessionHelper::$cookieLifeTime = 788940000
+SessionHelper::$base = ""
+SessionHelper::$webroot = "/"
+SessionHelper::$here = NULL
+SessionHelper::$params = array
+SessionHelper::$action = NULL
+SessionHelper::$data = array
+SessionHelper::$themeWeb = NULL
+SessionHelper::$plugin = NULL
+)
+$loadHelpers	=	false
+$cached	=	true
+$loadedHelpers	=	array()
+$controller	=	"CssController"
+$controllerName	=	"Css"
+$title_for_layout	=	"Missing Controller"
+$content_for_layout	=	"&lt;h2&gt;Missing Controller&lt;/h2&gt;
+&lt;p class=&quot;error&quot;&gt;
+	&lt;strong&gt;Error: &lt;/strong&gt;
+	&lt;em&gt;CssController&lt;/em&gt; could not be found.&lt;/p&gt;
+&lt;p class=&quot;error&quot;&gt;
+	&lt;strong&gt;Error: &lt;/strong&gt;
+	Create the class &lt;em&gt;CssController&lt;/em&gt; below in file: app/controllers/css_controller.php&lt;/p&gt;
+&lt;pre&gt;
+&amp;lt;?php
+class CssController extends AppController {
+
+	var $name = &#039;Css&#039;;
+}
+?&amp;gt;
+&lt;/pre&gt;
+&lt;p class=&quot;notice&quot;&gt;
+	&lt;strong&gt;Notice: &lt;/strong&gt;
+	If you want to customize this error message, create app/views/errors/missing_controller.ctp&lt;/p&gt;"
+$scripts_for_layout	=	""
+$cakeDebug	=	""
+$html	=	HtmlHelper
+HtmlHelper::$tags = array
+HtmlHelper::$base = ""
+HtmlHelper::$here = NULL
+HtmlHelper::$params = array
+HtmlHelper::$action = NULL
+HtmlHelper::$data = array
+HtmlHelper::$_crumbs = array
+HtmlHelper::$__docTypes = array
+HtmlHelper::$helpers = NULL
+HtmlHelper::$webroot = "/"
+HtmlHelper::$themeWeb = NULL
+HtmlHelper::$plugin = NULL
+HtmlHelper::$namedArgs = NULL
+HtmlHelper::$argSeparator = NULL
+HtmlHelper::$validationErrors = NULL
+HtmlHelper::$__tainted = NULL
+HtmlHelper::$__cleaned = NULL
+HtmlHelper::$_log = NULL
+$form	=	FormHelper
+FormHelper::$helpers = array
+FormHelper::$fieldset = array
+FormHelper::$__options = array
+FormHelper::$fields = array
+FormHelper::$requestType = NULL
+FormHelper::$base = ""
+FormHelper::$webroot = "/"
+FormHelper::$themeWeb = NULL
+FormHelper::$here = NULL
+FormHelper::$params = array
+FormHelper::$action = NULL
+FormHelper::$plugin = NULL
+FormHelper::$data = array
+FormHelper::$namedArgs = NULL
+FormHelper::$argSeparator = NULL
+FormHelper::$validationErrors = NULL
+FormHelper::$tags = array
+FormHelper::$__tainted = NULL
+FormHelper::$__cleaned = NULL
+FormHelper::$_log = NULL
+FormHelper::$Html = HtmlHelper object
+$javascript	=	JavascriptHelper
+JavascriptHelper::$useNative = true
+JavascriptHelper::$enabled = true
+JavascriptHelper::$safe = false
+JavascriptHelper::$tags = array
+JavascriptHelper::$_blockOptions = array
+JavascriptHelper::$_cachedEvents = array
+JavascriptHelper::$_cacheEvents = false
+JavascriptHelper::$_cacheToFile = false
+JavascriptHelper::$_cacheAll = false
+JavascriptHelper::$_rules = array
+JavascriptHelper::$__scriptBuffer = NULL
+JavascriptHelper::$helpers = NULL
+JavascriptHelper::$base = ""
+JavascriptHelper::$webroot = "/"
+JavascriptHelper::$themeWeb = NULL
+JavascriptHelper::$here = NULL
+JavascriptHelper::$params = array
+JavascriptHelper::$action = NULL
+JavascriptHelper::$plugin = NULL
+JavascriptHelper::$data = array
+JavascriptHelper::$namedArgs = NULL
+JavascriptHelper::$argSeparator = NULL
+JavascriptHelper::$validationErrors = NULL
+JavascriptHelper::$__tainted = NULL
+JavascriptHelper::$__cleaned = NULL
+JavascriptHelper::$_log = NULL
+$date	=	DateHelper
+DateHelper::$helpers = NULL
+DateHelper::$base = ""
+DateHelper::$webroot = "/"
+DateHelper::$themeWeb = NULL
+DateHelper::$here = NULL
+DateHelper::$params = array
+DateHelper::$action = NULL
+DateHelper::$plugin = NULL
+DateHelper::$data = array
+DateHelper::$namedArgs = NULL
+DateHelper::$argSeparator = NULL
+DateHelper::$validationErrors = NULL
+DateHelper::$tags = array
+DateHelper::$__tainted = NULL
+DateHelper::$__cleaned = NULL
+DateHelper::$_log = NULL
+$session	=	SessionHelper
+SessionHelper::$helpers = NULL
+SessionHelper::$__active = true
+SessionHelper::$valid = false
+SessionHelper::$error = false
+SessionHelper::$_userAgent = "9e74af2a14bc382a51e195f422692085"
+SessionHelper::$path = "/"
+SessionHelper::$lastError = NULL
+SessionHelper::$security = NULL
+SessionHelper::$time = 1369411736
+SessionHelper::$sessionTime = false
+SessionHelper::$watchKeys = array
+SessionHelper::$id = NULL
+SessionHelper::$_started = true
+SessionHelper::$host = NULL
+SessionHelper::$_log = NULL
+SessionHelper::$cookieLifeTime = 788940000
+SessionHelper::$base = ""
+SessionHelper::$webroot = "/"
+SessionHelper::$here = NULL
+SessionHelper::$params = array
+SessionHelper::$action = NULL
+SessionHelper::$data = array
+SessionHelper::$themeWeb = NULL
+SessionHelper::$plugin = NULL
+$server	=	"agabe.com"
+$endereco	=	"/css/jcarousel.css"
+$servidor	=	"http://agabe.com/css/jcarousel.css"
+$num	=	1</pre><div id="CakeErrorCode2" class="cake-code-dump" style="display: none;"><pre><code><span style="color: #000000">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;!--&lt;ul&nbsp;class="linguas"&gt;</span></code>
+<code><span style="color: #000000">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;<span style="color: #0000BB">&lt;?php&nbsp;</span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">$html</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">link</span><span style="color: #007700">(</span><span style="color: #0000BB">$languages</span><span style="color: #007700">[</span><span style="color: #DD0000">'pt'</span><span style="color: #007700">],&nbsp;</span><span style="color: #DD0000">'/pt'</span><span style="color: #007700">,&nbsp;array(</span><span style="color: #DD0000">'class'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">'pt'</span><span style="color: #007700">)&nbsp;);&nbsp;</span><span style="color: #0000BB">?&gt;</span>&lt;/li&gt;</span></code>
+<span class="code-highlight"><code><span style="color: #000000">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;<span style="color: #0000BB">&lt;?php&nbsp;</span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">$html</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">link</span><span style="color: #007700">(</span><span style="color: #0000BB">$languages</span><span style="color: #007700">[</span><span style="color: #DD0000">'es'</span><span style="color: #007700">],&nbsp;</span><span style="color: #DD0000">'/es'</span><span style="color: #007700">,&nbsp;array(</span><span style="color: #DD0000">'class'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">'es'</span><span style="color: #007700">)&nbsp;);&nbsp;</span><span style="color: #0000BB">?&gt;</span>&lt;/li&gt;</span></code></span>
+</pre></div><pre>include - APP/views/layouts/default.ctp, line 176
+View::_render() - CORE/cake/libs/view/view.php, line 665
+View::renderLayout() - CORE/cake/libs/view/view.php, line 453
+View::render() - CORE/cake/libs/view/view.php, line 387
+Controller::render() - CORE/cake/libs/controller/controller.php, line 808
+ErrorHandler::_outputMessage() - CORE/cake/libs/error.php, line 372
+ErrorHandler::missingController() - CORE/cake/libs/error.php, line 173
+Object::dispatchMethod() - CORE/cake/libs/object.php, line 117
+ErrorHandler::__construct() - CORE/cake/libs/error.php, line 117
+Object::cakeError() - CORE/cake/libs/object.php, line 202
+Dispatcher::dispatch() - CORE/cake/dispatcher.php, line 135
+[main] - APP/webroot/index.php, line 87</pre></div><a href="/es" class="es"></a></li>
+				<li>
+<pre class="cake-debug">
+<a href='javascript:void(0);' onclick='document.getElementById("CakeStackTrace3").style.display = (document.getElementById("CakeStackTrace3").style.display == "none" ? "" : "none")'><b>Notice</b> (8)</a>: Undefined variable: languages [<b>APP/views/layouts/default.ctp</b>, line <b>177</b>]
+</pre>
+<div id="CakeStackTrace3" class="cake-stack-trace" style="display: none;"><a href='javascript:void(0);' onclick='document.getElementById("CakeErrorCode3").style.display = (document.getElementById("CakeErrorCode3").style.display == "none" ? "" : "none")'>Code</a> | <a href='javascript:void(0);' onclick='document.getElementById("CakeErrorContext3").style.display = (document.getElementById("CakeErrorContext3").style.display == "none" ? "" : "none")'>Context</a><pre id="CakeErrorContext3" class="cake-context" style="display: none;">$___viewFn	=	"/home/agabe/public_html/app/views/layouts/default.ctp"
+$___dataForView	=	array(
+	"controller" => "CssController",
+	"controllerName" => "Css",
+	"title_for_layout" => "Missing Controller",
+	"content_for_layout" => "&lt;h2&gt;Missing Controller&lt;/h2&gt;
+&lt;p class=&quot;error&quot;&gt;
+	&lt;strong&gt;Error: &lt;/strong&gt;
+	&lt;em&gt;CssController&lt;/em&gt; could not be found.&lt;/p&gt;
+&lt;p class=&quot;error&quot;&gt;
+	&lt;strong&gt;Error: &lt;/strong&gt;
+	Create the class &lt;em&gt;CssController&lt;/em&gt; below in file: app/controllers/css_controller.php&lt;/p&gt;
+&lt;pre&gt;
+&amp;lt;?php
+class CssController extends AppController {
+
+	var $name = &#039;Css&#039;;
+}
+?&amp;gt;
+&lt;/pre&gt;
+&lt;p class=&quot;notice&quot;&gt;
+	&lt;strong&gt;Notice: &lt;/strong&gt;
+	If you want to customize this error message, create app/views/errors/missing_controller.ctp&lt;/p&gt;",
+	"scripts_for_layout" => "",
+	"cakeDebug" => "",
+	"html" => HtmlHelper
+HtmlHelper::$tags = array
+HtmlHelper::$base = ""
+HtmlHelper::$here = NULL
+HtmlHelper::$params = array
+HtmlHelper::$action = NULL
+HtmlHelper::$data = array
+HtmlHelper::$_crumbs = array
+HtmlHelper::$__docTypes = array
+HtmlHelper::$helpers = NULL
+HtmlHelper::$webroot = "/"
+HtmlHelper::$themeWeb = NULL
+HtmlHelper::$plugin = NULL
+HtmlHelper::$namedArgs = NULL
+HtmlHelper::$argSeparator = NULL
+HtmlHelper::$validationErrors = NULL
+HtmlHelper::$__tainted = NULL
+HtmlHelper::$__cleaned = NULL
+HtmlHelper::$_log = NULL,
+	"form" => FormHelper
+FormHelper::$helpers = array
+FormHelper::$fieldset = array
+FormHelper::$__options = array
+FormHelper::$fields = array
+FormHelper::$requestType = NULL
+FormHelper::$base = ""
+FormHelper::$webroot = "/"
+FormHelper::$themeWeb = NULL
+FormHelper::$here = NULL
+FormHelper::$params = array
+FormHelper::$action = NULL
+FormHelper::$plugin = NULL
+FormHelper::$data = array
+FormHelper::$namedArgs = NULL
+FormHelper::$argSeparator = NULL
+FormHelper::$validationErrors = NULL
+FormHelper::$tags = array
+FormHelper::$__tainted = NULL
+FormHelper::$__cleaned = NULL
+FormHelper::$_log = NULL
+FormHelper::$Html = HtmlHelper object,
+	"javascript" => JavascriptHelper
+JavascriptHelper::$useNative = true
+JavascriptHelper::$enabled = true
+JavascriptHelper::$safe = false
+JavascriptHelper::$tags = array
+JavascriptHelper::$_blockOptions = array
+JavascriptHelper::$_cachedEvents = array
+JavascriptHelper::$_cacheEvents = false
+JavascriptHelper::$_cacheToFile = false
+JavascriptHelper::$_cacheAll = false
+JavascriptHelper::$_rules = array
+JavascriptHelper::$__scriptBuffer = NULL
+JavascriptHelper::$helpers = NULL
+JavascriptHelper::$base = ""
+JavascriptHelper::$webroot = "/"
+JavascriptHelper::$themeWeb = NULL
+JavascriptHelper::$here = NULL
+JavascriptHelper::$params = array
+JavascriptHelper::$action = NULL
+JavascriptHelper::$plugin = NULL
+JavascriptHelper::$data = array
+JavascriptHelper::$namedArgs = NULL
+JavascriptHelper::$argSeparator = NULL
+JavascriptHelper::$validationErrors = NULL
+JavascriptHelper::$__tainted = NULL
+JavascriptHelper::$__cleaned = NULL
+JavascriptHelper::$_log = NULL,
+	"date" => DateHelper
+DateHelper::$helpers = NULL
+DateHelper::$base = ""
+DateHelper::$webroot = "/"
+DateHelper::$themeWeb = NULL
+DateHelper::$here = NULL
+DateHelper::$params = array
+DateHelper::$action = NULL
+DateHelper::$plugin = NULL
+DateHelper::$data = array
+DateHelper::$namedArgs = NULL
+DateHelper::$argSeparator = NULL
+DateHelper::$validationErrors = NULL
+DateHelper::$tags = array
+DateHelper::$__tainted = NULL
+DateHelper::$__cleaned = NULL
+DateHelper::$_log = NULL,
+	"session" => SessionHelper
+SessionHelper::$helpers = NULL
+SessionHelper::$__active = true
+SessionHelper::$valid = false
+SessionHelper::$error = false
+SessionHelper::$_userAgent = "9e74af2a14bc382a51e195f422692085"
+SessionHelper::$path = "/"
+SessionHelper::$lastError = NULL
+SessionHelper::$security = NULL
+SessionHelper::$time = 1369411736
+SessionHelper::$sessionTime = false
+SessionHelper::$watchKeys = array
+SessionHelper::$id = NULL
+SessionHelper::$_started = true
+SessionHelper::$host = NULL
+SessionHelper::$_log = NULL
+SessionHelper::$cookieLifeTime = 788940000
+SessionHelper::$base = ""
+SessionHelper::$webroot = "/"
+SessionHelper::$here = NULL
+SessionHelper::$params = array
+SessionHelper::$action = NULL
+SessionHelper::$data = array
+SessionHelper::$themeWeb = NULL
+SessionHelper::$plugin = NULL
+)
+$loadHelpers	=	false
+$cached	=	true
+$loadedHelpers	=	array()
+$controller	=	"CssController"
+$controllerName	=	"Css"
+$title_for_layout	=	"Missing Controller"
+$content_for_layout	=	"&lt;h2&gt;Missing Controller&lt;/h2&gt;
+&lt;p class=&quot;error&quot;&gt;
+	&lt;strong&gt;Error: &lt;/strong&gt;
+	&lt;em&gt;CssController&lt;/em&gt; could not be found.&lt;/p&gt;
+&lt;p class=&quot;error&quot;&gt;
+	&lt;strong&gt;Error: &lt;/strong&gt;
+	Create the class &lt;em&gt;CssController&lt;/em&gt; below in file: app/controllers/css_controller.php&lt;/p&gt;
+&lt;pre&gt;
+&amp;lt;?php
+class CssController extends AppController {
+
+	var $name = &#039;Css&#039;;
+}
+?&amp;gt;
+&lt;/pre&gt;
+&lt;p class=&quot;notice&quot;&gt;
+	&lt;strong&gt;Notice: &lt;/strong&gt;
+	If you want to customize this error message, create app/views/errors/missing_controller.ctp&lt;/p&gt;"
+$scripts_for_layout	=	""
+$cakeDebug	=	""
+$html	=	HtmlHelper
+HtmlHelper::$tags = array
+HtmlHelper::$base = ""
+HtmlHelper::$here = NULL
+HtmlHelper::$params = array
+HtmlHelper::$action = NULL
+HtmlHelper::$data = array
+HtmlHelper::$_crumbs = array
+HtmlHelper::$__docTypes = array
+HtmlHelper::$helpers = NULL
+HtmlHelper::$webroot = "/"
+HtmlHelper::$themeWeb = NULL
+HtmlHelper::$plugin = NULL
+HtmlHelper::$namedArgs = NULL
+HtmlHelper::$argSeparator = NULL
+HtmlHelper::$validationErrors = NULL
+HtmlHelper::$__tainted = NULL
+HtmlHelper::$__cleaned = NULL
+HtmlHelper::$_log = NULL
+$form	=	FormHelper
+FormHelper::$helpers = array
+FormHelper::$fieldset = array
+FormHelper::$__options = array
+FormHelper::$fields = array
+FormHelper::$requestType = NULL
+FormHelper::$base = ""
+FormHelper::$webroot = "/"
+FormHelper::$themeWeb = NULL
+FormHelper::$here = NULL
+FormHelper::$params = array
+FormHelper::$action = NULL
+FormHelper::$plugin = NULL
+FormHelper::$data = array
+FormHelper::$namedArgs = NULL
+FormHelper::$argSeparator = NULL
+FormHelper::$validationErrors = NULL
+FormHelper::$tags = array
+FormHelper::$__tainted = NULL
+FormHelper::$__cleaned = NULL
+FormHelper::$_log = NULL
+FormHelper::$Html = HtmlHelper object
+$javascript	=	JavascriptHelper
+JavascriptHelper::$useNative = true
+JavascriptHelper::$enabled = true
+JavascriptHelper::$safe = false
+JavascriptHelper::$tags = array
+JavascriptHelper::$_blockOptions = array
+JavascriptHelper::$_cachedEvents = array
+JavascriptHelper::$_cacheEvents = false
+JavascriptHelper::$_cacheToFile = false
+JavascriptHelper::$_cacheAll = false
+JavascriptHelper::$_rules = array
+JavascriptHelper::$__scriptBuffer = NULL
+JavascriptHelper::$helpers = NULL
+JavascriptHelper::$base = ""
+JavascriptHelper::$webroot = "/"
+JavascriptHelper::$themeWeb = NULL
+JavascriptHelper::$here = NULL
+JavascriptHelper::$params = array
+JavascriptHelper::$action = NULL
+JavascriptHelper::$plugin = NULL
+JavascriptHelper::$data = array
+JavascriptHelper::$namedArgs = NULL
+JavascriptHelper::$argSeparator = NULL
+JavascriptHelper::$validationErrors = NULL
+JavascriptHelper::$__tainted = NULL
+JavascriptHelper::$__cleaned = NULL
+JavascriptHelper::$_log = NULL
+$date	=	DateHelper
+DateHelper::$helpers = NULL
+DateHelper::$base = ""
+DateHelper::$webroot = "/"
+DateHelper::$themeWeb = NULL
+DateHelper::$here = NULL
+DateHelper::$params = array
+DateHelper::$action = NULL
+DateHelper::$plugin = NULL
+DateHelper::$data = array
+DateHelper::$namedArgs = NULL
+DateHelper::$argSeparator = NULL
+DateHelper::$validationErrors = NULL
+DateHelper::$tags = array
+DateHelper::$__tainted = NULL
+DateHelper::$__cleaned = NULL
+DateHelper::$_log = NULL
+$session	=	SessionHelper
+SessionHelper::$helpers = NULL
+SessionHelper::$__active = true
+SessionHelper::$valid = false
+SessionHelper::$error = false
+SessionHelper::$_userAgent = "9e74af2a14bc382a51e195f422692085"
+SessionHelper::$path = "/"
+SessionHelper::$lastError = NULL
+SessionHelper::$security = NULL
+SessionHelper::$time = 1369411736
+SessionHelper::$sessionTime = false
+SessionHelper::$watchKeys = array
+SessionHelper::$id = NULL
+SessionHelper::$_started = true
+SessionHelper::$host = NULL
+SessionHelper::$_log = NULL
+SessionHelper::$cookieLifeTime = 788940000
+SessionHelper::$base = ""
+SessionHelper::$webroot = "/"
+SessionHelper::$here = NULL
+SessionHelper::$params = array
+SessionHelper::$action = NULL
+SessionHelper::$data = array
+SessionHelper::$themeWeb = NULL
+SessionHelper::$plugin = NULL
+$server	=	"agabe.com"
+$endereco	=	"/css/jcarousel.css"
+$servidor	=	"http://agabe.com/css/jcarousel.css"
+$num	=	1</pre><div id="CakeErrorCode3" class="cake-code-dump" style="display: none;"><pre><code><span style="color: #000000">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;<span style="color: #0000BB">&lt;?php&nbsp;</span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">$html</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">link</span><span style="color: #007700">(</span><span style="color: #0000BB">$languages</span><span style="color: #007700">[</span><span style="color: #DD0000">'pt'</span><span style="color: #007700">],&nbsp;</span><span style="color: #DD0000">'/pt'</span><span style="color: #007700">,&nbsp;array(</span><span style="color: #DD0000">'class'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">'pt'</span><span style="color: #007700">)&nbsp;);&nbsp;</span><span style="color: #0000BB">?&gt;</span>&lt;/li&gt;</span></code>
+<code><span style="color: #000000">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;<span style="color: #0000BB">&lt;?php&nbsp;</span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">$html</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">link</span><span style="color: #007700">(</span><span style="color: #0000BB">$languages</span><span style="color: #007700">[</span><span style="color: #DD0000">'es'</span><span style="color: #007700">],&nbsp;</span><span style="color: #DD0000">'/es'</span><span style="color: #007700">,&nbsp;array(</span><span style="color: #DD0000">'class'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">'es'</span><span style="color: #007700">)&nbsp;);&nbsp;</span><span style="color: #0000BB">?&gt;</span>&lt;/li&gt;</span></code>
+<span class="code-highlight"><code><span style="color: #000000">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;<span style="color: #0000BB">&lt;?php&nbsp;</span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">$html</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">link</span><span style="color: #007700">(</span><span style="color: #0000BB">$languages</span><span style="color: #007700">[</span><span style="color: #DD0000">'en'</span><span style="color: #007700">],&nbsp;</span><span style="color: #DD0000">'/en'</span><span style="color: #007700">,&nbsp;array(</span><span style="color: #DD0000">'class'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">'en'</span><span style="color: #007700">)&nbsp;);&nbsp;</span><span style="color: #0000BB">?&gt;</span>&lt;/li&gt;</span></code></span>
+</pre></div><pre>include - APP/views/layouts/default.ctp, line 177
+View::_render() - CORE/cake/libs/view/view.php, line 665
+View::renderLayout() - CORE/cake/libs/view/view.php, line 453
+View::render() - CORE/cake/libs/view/view.php, line 387
+Controller::render() - CORE/cake/libs/controller/controller.php, line 808
+ErrorHandler::_outputMessage() - CORE/cake/libs/error.php, line 372
+ErrorHandler::missingController() - CORE/cake/libs/error.php, line 173
+Object::dispatchMethod() - CORE/cake/libs/object.php, line 117
+ErrorHandler::__construct() - CORE/cake/libs/error.php, line 117
+Object::cakeError() - CORE/cake/libs/object.php, line 202
+Dispatcher::dispatch() - CORE/cake/dispatcher.php, line 135
+[main] - APP/webroot/index.php, line 87</pre></div><a href="/en" class="en"></a></li>
+			</ul>-->
+			
+			<ul class="linguas">
+				<li><a class="pt" href="#">Português</a></li>
+				<li><a class="es" href="http://www.agabe.com/site/es/">Español</a></li>
+				<li><a class="en" href="http://www.agabe.com/site/en/">English</a></a></li>
+			</ul>
+			<p class="tel">(11) 2813-4600</p>
+			<form id="topoForm" method="post" action="/searchable/search_indices/"><fieldset style="display:none;"><input type="hidden" name="_method" value="POST" /></fieldset>				<input name="data[SearchIndex][term]" type="text" class="userText" title="Busca" value="" id="SearchIndexTerm" />			<div class="submit"><input type="submit" value="OK" /></div></form>		</div>
+	</div>
+
+	<div id="menu" class="menu">
+		<ul id="drop-menu">			
+			<li class="btn1">			
+			<a href="/pt/pages/home" class="button">Home</a>			
+			</li>
+			
+    		<li class="btn2"><a href="/fixedPages/empresa">Agabê</a></li>
+    		
+    		<li class="btn4"><a href="#">Produtos<a href="/css/jcarousel.css"></a></a>
+				<ul>
+        			<li><a href="/produtos/por_tipo">Por Tipo</a></li>
+            		<li><a href="/produtos/por_nome/filtrar/letra:a">Por Nome</a></li>
+				</ul>
+			</li>
+			<li class="btn3"><a href="/mailers/ondecomprar">Onde Comprar</a>    		</li>
+			<li class="btn8"><a href="#">Suporte Técnico</a>
+				<ul>
+        			<li>
+<pre class="cake-debug">
+<a href='javascript:void(0);' onclick='document.getElementById("CakeStackTrace4").style.display = (document.getElementById("CakeStackTrace4").style.display == "none" ? "" : "none")'><b>Notice</b> (8)</a>: Undefined variable: fixedTitles [<b>APP/views/layouts/default.ctp</b>, line <b>228</b>]
+</pre>
+<div id="CakeStackTrace4" class="cake-stack-trace" style="display: none;"><a href='javascript:void(0);' onclick='document.getElementById("CakeErrorCode4").style.display = (document.getElementById("CakeErrorCode4").style.display == "none" ? "" : "none")'>Code</a> | <a href='javascript:void(0);' onclick='document.getElementById("CakeErrorContext4").style.display = (document.getElementById("CakeErrorContext4").style.display == "none" ? "" : "none")'>Context</a><pre id="CakeErrorContext4" class="cake-context" style="display: none;">$___viewFn	=	"/home/agabe/public_html/app/views/layouts/default.ctp"
+$___dataForView	=	array(
+	"controller" => "CssController",
+	"controllerName" => "Css",
+	"title_for_layout" => "Missing Controller",
+	"content_for_layout" => "&lt;h2&gt;Missing Controller&lt;/h2&gt;
+&lt;p class=&quot;error&quot;&gt;
+	&lt;strong&gt;Error: &lt;/strong&gt;
+	&lt;em&gt;CssController&lt;/em&gt; could not be found.&lt;/p&gt;
+&lt;p class=&quot;error&quot;&gt;
+	&lt;strong&gt;Error: &lt;/strong&gt;
+	Create the class &lt;em&gt;CssController&lt;/em&gt; below in file: app/controllers/css_controller.php&lt;/p&gt;
+&lt;pre&gt;
+&amp;lt;?php
+class CssController extends AppController {
+
+	var $name = &#039;Css&#039;;
+}
+?&amp;gt;
+&lt;/pre&gt;
+&lt;p class=&quot;notice&quot;&gt;
+	&lt;strong&gt;Notice: &lt;/strong&gt;
+	If you want to customize this error message, create app/views/errors/missing_controller.ctp&lt;/p&gt;",
+	"scripts_for_layout" => "",
+	"cakeDebug" => "",
+	"html" => HtmlHelper
+HtmlHelper::$tags = array
+HtmlHelper::$base = ""
+HtmlHelper::$here = NULL
+HtmlHelper::$params = array
+HtmlHelper::$action = NULL
+HtmlHelper::$data = array
+HtmlHelper::$_crumbs = array
+HtmlHelper::$__docTypes = array
+HtmlHelper::$helpers = NULL
+HtmlHelper::$webroot = "/"
+HtmlHelper::$themeWeb = NULL
+HtmlHelper::$plugin = NULL
+HtmlHelper::$namedArgs = NULL
+HtmlHelper::$argSeparator = NULL
+HtmlHelper::$validationErrors = NULL
+HtmlHelper::$__tainted = NULL
+HtmlHelper::$__cleaned = NULL
+HtmlHelper::$_log = NULL,
+	"form" => FormHelper
+FormHelper::$helpers = array
+FormHelper::$fieldset = array
+FormHelper::$__options = array
+FormHelper::$fields = array
+FormHelper::$requestType = "post"
+FormHelper::$base = ""
+FormHelper::$webroot = "/"
+FormHelper::$themeWeb = NULL
+FormHelper::$here = NULL
+FormHelper::$params = array
+FormHelper::$action = NULL
+FormHelper::$plugin = NULL
+FormHelper::$data = array
+FormHelper::$namedArgs = NULL
+FormHelper::$argSeparator = NULL
+FormHelper::$validationErrors = NULL
+FormHelper::$tags = array
+FormHelper::$__tainted = NULL
+FormHelper::$__cleaned = NULL
+FormHelper::$_log = NULL
+FormHelper::$Html = HtmlHelper object,
+	"javascript" => JavascriptHelper
+JavascriptHelper::$useNative = true
+JavascriptHelper::$enabled = true
+JavascriptHelper::$safe = false
+JavascriptHelper::$tags = array
+JavascriptHelper::$_blockOptions = array
+JavascriptHelper::$_cachedEvents = array
+JavascriptHelper::$_cacheEvents = false
+JavascriptHelper::$_cacheToFile = false
+JavascriptHelper::$_cacheAll = false
+JavascriptHelper::$_rules = array
+JavascriptHelper::$__scriptBuffer = NULL
+JavascriptHelper::$helpers = NULL
+JavascriptHelper::$base = ""
+JavascriptHelper::$webroot = "/"
+JavascriptHelper::$themeWeb = NULL
+JavascriptHelper::$here = NULL
+JavascriptHelper::$params = array
+JavascriptHelper::$action = NULL
+JavascriptHelper::$plugin = NULL
+JavascriptHelper::$data = array
+JavascriptHelper::$namedArgs = NULL
+JavascriptHelper::$argSeparator = NULL
+JavascriptHelper::$validationErrors = NULL
+JavascriptHelper::$__tainted = NULL
+JavascriptHelper::$__cleaned = NULL
+JavascriptHelper::$_log = NULL,
+	"date" => DateHelper
+DateHelper::$helpers = NULL
+DateHelper::$base = ""
+DateHelper::$webroot = "/"
+DateHelper::$themeWeb = NULL
+DateHelper::$here = NULL
+DateHelper::$params = array
+DateHelper::$action = NULL
+DateHelper::$plugin = NULL
+DateHelper::$data = array
+DateHelper::$namedArgs = NULL
+DateHelper::$argSeparator = NULL
+DateHelper::$validationErrors = NULL
+DateHelper::$tags = array
+DateHelper::$__tainted = NULL
+DateHelper::$__cleaned = NULL
+DateHelper::$_log = NULL,
+	"session" => SessionHelper
+SessionHelper::$helpers = NULL
+SessionHelper::$__active = true
+SessionHelper::$valid = false
+SessionHelper::$error = false
+SessionHelper::$_userAgent = "9e74af2a14bc382a51e195f422692085"
+SessionHelper::$path = "/"
+SessionHelper::$lastError = NULL
+SessionHelper::$security = NULL
+SessionHelper::$time = 1369411736
+SessionHelper::$sessionTime = false
+SessionHelper::$watchKeys = array
+SessionHelper::$id = NULL
+SessionHelper::$_started = true
+SessionHelper::$host = NULL
+SessionHelper::$_log = NULL
+SessionHelper::$cookieLifeTime = 788940000
+SessionHelper::$base = ""
+SessionHelper::$webroot = "/"
+SessionHelper::$here = NULL
+SessionHelper::$params = array
+SessionHelper::$action = NULL
+SessionHelper::$data = array
+SessionHelper::$themeWeb = NULL
+SessionHelper::$plugin = NULL
+)
+$loadHelpers	=	false
+$cached	=	true
+$loadedHelpers	=	array()
+$controller	=	"CssController"
+$controllerName	=	"Css"
+$title_for_layout	=	"Missing Controller"
+$content_for_layout	=	"&lt;h2&gt;Missing Controller&lt;/h2&gt;
+&lt;p class=&quot;error&quot;&gt;
+	&lt;strong&gt;Error: &lt;/strong&gt;
+	&lt;em&gt;CssController&lt;/em&gt; could not be found.&lt;/p&gt;
+&lt;p class=&quot;error&quot;&gt;
+	&lt;strong&gt;Error: &lt;/strong&gt;
+	Create the class &lt;em&gt;CssController&lt;/em&gt; below in file: app/controllers/css_controller.php&lt;/p&gt;
+&lt;pre&gt;
+&amp;lt;?php
+class CssController extends AppController {
+
+	var $name = &#039;Css&#039;;
+}
+?&amp;gt;
+&lt;/pre&gt;
+&lt;p class=&quot;notice&quot;&gt;
+	&lt;strong&gt;Notice: &lt;/strong&gt;
+	If you want to customize this error message, create app/views/errors/missing_controller.ctp&lt;/p&gt;"
+$scripts_for_layout	=	""
+$cakeDebug	=	""
+$html	=	HtmlHelper
+HtmlHelper::$tags = array
+HtmlHelper::$base = ""
+HtmlHelper::$here = NULL
+HtmlHelper::$params = array
+HtmlHelper::$action = NULL
+HtmlHelper::$data = array
+HtmlHelper::$_crumbs = array
+HtmlHelper::$__docTypes = array
+HtmlHelper::$helpers = NULL
+HtmlHelper::$webroot = "/"
+HtmlHelper::$themeWeb = NULL
+HtmlHelper::$plugin = NULL
+HtmlHelper::$namedArgs = NULL
+HtmlHelper::$argSeparator = NULL
+HtmlHelper::$validationErrors = NULL
+HtmlHelper::$__tainted = NULL
+HtmlHelper::$__cleaned = NULL
+HtmlHelper::$_log = NULL
+$form	=	FormHelper
+FormHelper::$helpers = array
+FormHelper::$fieldset = array
+FormHelper::$__options = array
+FormHelper::$fields = array
+FormHelper::$requestType = "post"
+FormHelper::$base = ""
+FormHelper::$webroot = "/"
+FormHelper::$themeWeb = NULL
+FormHelper::$here = NULL
+FormHelper::$params = array
+FormHelper::$action = NULL
+FormHelper::$plugin = NULL
+FormHelper::$data = array
+FormHelper::$namedArgs = NULL
+FormHelper::$argSeparator = NULL
+FormHelper::$validationErrors = NULL
+FormHelper::$tags = array
+FormHelper::$__tainted = NULL
+FormHelper::$__cleaned = NULL
+FormHelper::$_log = NULL
+FormHelper::$Html = HtmlHelper object
+$javascript	=	JavascriptHelper
+JavascriptHelper::$useNative = true
+JavascriptHelper::$enabled = true
+JavascriptHelper::$safe = false
+JavascriptHelper::$tags = array
+JavascriptHelper::$_blockOptions = array
+JavascriptHelper::$_cachedEvents = array
+JavascriptHelper::$_cacheEvents = false
+JavascriptHelper::$_cacheToFile = false
+JavascriptHelper::$_cacheAll = false
+JavascriptHelper::$_rules = array
+JavascriptHelper::$__scriptBuffer = NULL
+JavascriptHelper::$helpers = NULL
+JavascriptHelper::$base = ""
+JavascriptHelper::$webroot = "/"
+JavascriptHelper::$themeWeb = NULL
+JavascriptHelper::$here = NULL
+JavascriptHelper::$params = array
+JavascriptHelper::$action = NULL
+JavascriptHelper::$plugin = NULL
+JavascriptHelper::$data = array
+JavascriptHelper::$namedArgs = NULL
+JavascriptHelper::$argSeparator = NULL
+JavascriptHelper::$validationErrors = NULL
+JavascriptHelper::$__tainted = NULL
+JavascriptHelper::$__cleaned = NULL
+JavascriptHelper::$_log = NULL
+$date	=	DateHelper
+DateHelper::$helpers = NULL
+DateHelper::$base = ""
+DateHelper::$webroot = "/"
+DateHelper::$themeWeb = NULL
+DateHelper::$here = NULL
+DateHelper::$params = array
+DateHelper::$action = NULL
+DateHelper::$plugin = NULL
+DateHelper::$data = array
+DateHelper::$namedArgs = NULL
+DateHelper::$argSeparator = NULL
+DateHelper::$validationErrors = NULL
+DateHelper::$tags = array
+DateHelper::$__tainted = NULL
+DateHelper::$__cleaned = NULL
+DateHelper::$_log = NULL
+$session	=	SessionHelper
+SessionHelper::$helpers = NULL
+SessionHelper::$__active = true
+SessionHelper::$valid = false
+SessionHelper::$error = false
+SessionHelper::$_userAgent = "9e74af2a14bc382a51e195f422692085"
+SessionHelper::$path = "/"
+SessionHelper::$lastError = NULL
+SessionHelper::$security = NULL
+SessionHelper::$time = 1369411736
+SessionHelper::$sessionTime = false
+SessionHelper::$watchKeys = array
+SessionHelper::$id = NULL
+SessionHelper::$_started = true
+SessionHelper::$host = NULL
+SessionHelper::$_log = NULL
+SessionHelper::$cookieLifeTime = 788940000
+SessionHelper::$base = ""
+SessionHelper::$webroot = "/"
+SessionHelper::$here = NULL
+SessionHelper::$params = array
+SessionHelper::$action = NULL
+SessionHelper::$data = array
+SessionHelper::$themeWeb = NULL
+SessionHelper::$plugin = NULL
+$server	=	"agabe.com"
+$endereco	=	"/css/jcarousel.css"
+$servidor	=	"http://agabe.com/css/jcarousel.css"
+$num	=	1</pre><div id="CakeErrorCode4" class="cake-code-dump" style="display: none;"><pre><code><span style="color: #000000">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&nbsp;class="btn8"&gt;&lt;a&nbsp;href="#"&gt;<span style="color: #0000BB">&lt;?php&nbsp;</span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">__</span><span style="color: #007700">(</span><span style="color: #DD0000">'Suporte&nbsp;Técnico'</span><span style="color: #007700">);&nbsp;</span><span style="color: #0000BB">?&gt;</span>&lt;/a&gt;</span></code>
+<code><span style="color: #000000">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;ul&gt;</span></code>
+<span class="code-highlight"><code><span style="color: #000000">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;<span style="color: #0000BB">&lt;?php&nbsp;</span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">$html</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">link</span><span style="color: #007700">(</span><span style="color: #0000BB">$fixedTitles</span><span style="color: #007700">[</span><span style="color: #DD0000">'guia_de_solucoes_de_problemas'</span><span style="color: #007700">],&nbsp;array(</span><span style="color: #DD0000">'controller'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">'fixedPages'</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'action'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">'guia_de_solucoes_de_problemas'</span><span style="color: #007700">));&nbsp;</span><span style="color: #0000BB">?&gt;</span>&lt;/li&gt;</span></code></span>
+</pre></div><pre>include - APP/views/layouts/default.ctp, line 228
+View::_render() - CORE/cake/libs/view/view.php, line 665
+View::renderLayout() - CORE/cake/libs/view/view.php, line 453
+View::render() - CORE/cake/libs/view/view.php, line 387
+Controller::render() - CORE/cake/libs/controller/controller.php, line 808
+ErrorHandler::_outputMessage() - CORE/cake/libs/error.php, line 372
+ErrorHandler::missingController() - CORE/cake/libs/error.php, line 173
+Object::dispatchMethod() - CORE/cake/libs/object.php, line 117
+ErrorHandler::__construct() - CORE/cake/libs/error.php, line 117
+Object::cakeError() - CORE/cake/libs/object.php, line 202
+Dispatcher::dispatch() - CORE/cake/dispatcher.php, line 135
+[main] - APP/webroot/index.php, line 87</pre></div><a href="/fixedPages/guia_de_solucoes_de_problemas"></a></li>
+								<li>
+<pre class="cake-debug">
+<a href='javascript:void(0);' onclick='document.getElementById("CakeStackTrace5").style.display = (document.getElementById("CakeStackTrace5").style.display == "none" ? "" : "none")'><b>Notice</b> (8)</a>: Undefined variable: fixedTitles [<b>APP/views/layouts/default.ctp</b>, line <b>229</b>]
+</pre>
+<div id="CakeStackTrace5" class="cake-stack-trace" style="display: none;"><a href='javascript:void(0);' onclick='document.getElementById("CakeErrorCode5").style.display = (document.getElementById("CakeErrorCode5").style.display == "none" ? "" : "none")'>Code</a> | <a href='javascript:void(0);' onclick='document.getElementById("CakeErrorContext5").style.display = (document.getElementById("CakeErrorContext5").style.display == "none" ? "" : "none")'>Context</a><pre id="CakeErrorContext5" class="cake-context" style="display: none;">$___viewFn	=	"/home/agabe/public_html/app/views/layouts/default.ctp"
+$___dataForView	=	array(
+	"controller" => "CssController",
+	"controllerName" => "Css",
+	"title_for_layout" => "Missing Controller",
+	"content_for_layout" => "&lt;h2&gt;Missing Controller&lt;/h2&gt;
+&lt;p class=&quot;error&quot;&gt;
+	&lt;strong&gt;Error: &lt;/strong&gt;
+	&lt;em&gt;CssController&lt;/em&gt; could not be found.&lt;/p&gt;
+&lt;p class=&quot;error&quot;&gt;
+	&lt;strong&gt;Error: &lt;/strong&gt;
+	Create the class &lt;em&gt;CssController&lt;/em&gt; below in file: app/controllers/css_controller.php&lt;/p&gt;
+&lt;pre&gt;
+&amp;lt;?php
+class CssController extends AppController {
+
+	var $name = &#039;Css&#039;;
+}
+?&amp;gt;
+&lt;/pre&gt;
+&lt;p class=&quot;notice&quot;&gt;
+	&lt;strong&gt;Notice: &lt;/strong&gt;
+	If you want to customize this error message, create app/views/errors/missing_controller.ctp&lt;/p&gt;",
+	"scripts_for_layout" => "",
+	"cakeDebug" => "",
+	"html" => HtmlHelper
+HtmlHelper::$tags = array
+HtmlHelper::$base = ""
+HtmlHelper::$here = NULL
+HtmlHelper::$params = array
+HtmlHelper::$action = NULL
+HtmlHelper::$data = array
+HtmlHelper::$_crumbs = array
+HtmlHelper::$__docTypes = array
+HtmlHelper::$helpers = NULL
+HtmlHelper::$webroot = "/"
+HtmlHelper::$themeWeb = NULL
+HtmlHelper::$plugin = NULL
+HtmlHelper::$namedArgs = NULL
+HtmlHelper::$argSeparator = NULL
+HtmlHelper::$validationErrors = NULL
+HtmlHelper::$__tainted = NULL
+HtmlHelper::$__cleaned = NULL
+HtmlHelper::$_log = NULL,
+	"form" => FormHelper
+FormHelper::$helpers = array
+FormHelper::$fieldset = array
+FormHelper::$__options = array
+FormHelper::$fields = array
+FormHelper::$requestType = "post"
+FormHelper::$base = ""
+FormHelper::$webroot = "/"
+FormHelper::$themeWeb = NULL
+FormHelper::$here = NULL
+FormHelper::$params = array
+FormHelper::$action = NULL
+FormHelper::$plugin = NULL
+FormHelper::$data = array
+FormHelper::$namedArgs = NULL
+FormHelper::$argSeparator = NULL
+FormHelper::$validationErrors = NULL
+FormHelper::$tags = array
+FormHelper::$__tainted = NULL
+FormHelper::$__cleaned = NULL
+FormHelper::$_log = NULL
+FormHelper::$Html = HtmlHelper object,
+	"javascript" => JavascriptHelper
+JavascriptHelper::$useNative = true
+JavascriptHelper::$enabled = true
+JavascriptHelper::$safe = false
+JavascriptHelper::$tags = array
+JavascriptHelper::$_blockOptions = array
+JavascriptHelper::$_cachedEvents = array
+JavascriptHelper::$_cacheEvents = false
+JavascriptHelper::$_cacheToFile = false
+JavascriptHelper::$_cacheAll = false
+JavascriptHelper::$_rules = array
+JavascriptHelper::$__scriptBuffer = NULL
+JavascriptHelper::$helpers = NULL
+JavascriptHelper::$base = ""
+JavascriptHelper::$webroot = "/"
+JavascriptHelper::$themeWeb = NULL
+JavascriptHelper::$here = NULL
+JavascriptHelper::$params = array
+JavascriptHelper::$action = NULL
+JavascriptHelper::$plugin = NULL
+JavascriptHelper::$data = array
+JavascriptHelper::$namedArgs = NULL
+JavascriptHelper::$argSeparator = NULL
+JavascriptHelper::$validationErrors = NULL
+JavascriptHelper::$__tainted = NULL
+JavascriptHelper::$__cleaned = NULL
+JavascriptHelper::$_log = NULL,
+	"date" => DateHelper
+DateHelper::$helpers = NULL
+DateHelper::$base = ""
+DateHelper::$webroot = "/"
+DateHelper::$themeWeb = NULL
+DateHelper::$here = NULL
+DateHelper::$params = array
+DateHelper::$action = NULL
+DateHelper::$plugin = NULL
+DateHelper::$data = array
+DateHelper::$namedArgs = NULL
+DateHelper::$argSeparator = NULL
+DateHelper::$validationErrors = NULL
+DateHelper::$tags = array
+DateHelper::$__tainted = NULL
+DateHelper::$__cleaned = NULL
+DateHelper::$_log = NULL,
+	"session" => SessionHelper
+SessionHelper::$helpers = NULL
+SessionHelper::$__active = true
+SessionHelper::$valid = false
+SessionHelper::$error = false
+SessionHelper::$_userAgent = "9e74af2a14bc382a51e195f422692085"
+SessionHelper::$path = "/"
+SessionHelper::$lastError = NULL
+SessionHelper::$security = NULL
+SessionHelper::$time = 1369411736
+SessionHelper::$sessionTime = false
+SessionHelper::$watchKeys = array
+SessionHelper::$id = NULL
+SessionHelper::$_started = true
+SessionHelper::$host = NULL
+SessionHelper::$_log = NULL
+SessionHelper::$cookieLifeTime = 788940000
+SessionHelper::$base = ""
+SessionHelper::$webroot = "/"
+SessionHelper::$here = NULL
+SessionHelper::$params = array
+SessionHelper::$action = NULL
+SessionHelper::$data = array
+SessionHelper::$themeWeb = NULL
+SessionHelper::$plugin = NULL
+)
+$loadHelpers	=	false
+$cached	=	true
+$loadedHelpers	=	array()
+$controller	=	"CssController"
+$controllerName	=	"Css"
+$title_for_layout	=	"Missing Controller"
+$content_for_layout	=	"&lt;h2&gt;Missing Controller&lt;/h2&gt;
+&lt;p class=&quot;error&quot;&gt;
+	&lt;strong&gt;Error: &lt;/strong&gt;
+	&lt;em&gt;CssController&lt;/em&gt; could not be found.&lt;/p&gt;
+&lt;p class=&quot;error&quot;&gt;
+	&lt;strong&gt;Error: &lt;/strong&gt;
+	Create the class &lt;em&gt;CssController&lt;/em&gt; below in file: app/controllers/css_controller.php&lt;/p&gt;
+&lt;pre&gt;
+&amp;lt;?php
+class CssController extends AppController {
+
+	var $name = &#039;Css&#039;;
+}
+?&amp;gt;
+&lt;/pre&gt;
+&lt;p class=&quot;notice&quot;&gt;
+	&lt;strong&gt;Notice: &lt;/strong&gt;
+	If you want to customize this error message, create app/views/errors/missing_controller.ctp&lt;/p&gt;"
+$scripts_for_layout	=	""
+$cakeDebug	=	""
+$html	=	HtmlHelper
+HtmlHelper::$tags = array
+HtmlHelper::$base = ""
+HtmlHelper::$here = NULL
+HtmlHelper::$params = array
+HtmlHelper::$action = NULL
+HtmlHelper::$data = array
+HtmlHelper::$_crumbs = array
+HtmlHelper::$__docTypes = array
+HtmlHelper::$helpers = NULL
+HtmlHelper::$webroot = "/"
+HtmlHelper::$themeWeb = NULL
+HtmlHelper::$plugin = NULL
+HtmlHelper::$namedArgs = NULL
+HtmlHelper::$argSeparator = NULL
+HtmlHelper::$validationErrors = NULL
+HtmlHelper::$__tainted = NULL
+HtmlHelper::$__cleaned = NULL
+HtmlHelper::$_log = NULL
+$form	=	FormHelper
+FormHelper::$helpers = array
+FormHelper::$fieldset = array
+FormHelper::$__options = array
+FormHelper::$fields = array
+FormHelper::$requestType = "post"
+FormHelper::$base = ""
+FormHelper::$webroot = "/"
+FormHelper::$themeWeb = NULL
+FormHelper::$here = NULL
+FormHelper::$params = array
+FormHelper::$action = NULL
+FormHelper::$plugin = NULL
+FormHelper::$data = array
+FormHelper::$namedArgs = NULL
+FormHelper::$argSeparator = NULL
+FormHelper::$validationErrors = NULL
+FormHelper::$tags = array
+FormHelper::$__tainted = NULL
+FormHelper::$__cleaned = NULL
+FormHelper::$_log = NULL
+FormHelper::$Html = HtmlHelper object
+$javascript	=	JavascriptHelper
+JavascriptHelper::$useNative = true
+JavascriptHelper::$enabled = true
+JavascriptHelper::$safe = false
+JavascriptHelper::$tags = array
+JavascriptHelper::$_blockOptions = array
+JavascriptHelper::$_cachedEvents = array
+JavascriptHelper::$_cacheEvents = false
+JavascriptHelper::$_cacheToFile = false
+JavascriptHelper::$_cacheAll = false
+JavascriptHelper::$_rules = array
+JavascriptHelper::$__scriptBuffer = NULL
+JavascriptHelper::$helpers = NULL
+JavascriptHelper::$base = ""
+JavascriptHelper::$webroot = "/"
+JavascriptHelper::$themeWeb = NULL
+JavascriptHelper::$here = NULL
+JavascriptHelper::$params = array
+JavascriptHelper::$action = NULL
+JavascriptHelper::$plugin = NULL
+JavascriptHelper::$data = array
+JavascriptHelper::$namedArgs = NULL
+JavascriptHelper::$argSeparator = NULL
+JavascriptHelper::$validationErrors = NULL
+JavascriptHelper::$__tainted = NULL
+JavascriptHelper::$__cleaned = NULL
+JavascriptHelper::$_log = NULL
+$date	=	DateHelper
+DateHelper::$helpers = NULL
+DateHelper::$base = ""
+DateHelper::$webroot = "/"
+DateHelper::$themeWeb = NULL
+DateHelper::$here = NULL
+DateHelper::$params = array
+DateHelper::$action = NULL
+DateHelper::$plugin = NULL
+DateHelper::$data = array
+DateHelper::$namedArgs = NULL
+DateHelper::$argSeparator = NULL
+DateHelper::$validationErrors = NULL
+DateHelper::$tags = array
+DateHelper::$__tainted = NULL
+DateHelper::$__cleaned = NULL
+DateHelper::$_log = NULL
+$session	=	SessionHelper
+SessionHelper::$helpers = NULL
+SessionHelper::$__active = true
+SessionHelper::$valid = false
+SessionHelper::$error = false
+SessionHelper::$_userAgent = "9e74af2a14bc382a51e195f422692085"
+SessionHelper::$path = "/"
+SessionHelper::$lastError = NULL
+SessionHelper::$security = NULL
+SessionHelper::$time = 1369411736
+SessionHelper::$sessionTime = false
+SessionHelper::$watchKeys = array
+SessionHelper::$id = NULL
+SessionHelper::$_started = true
+SessionHelper::$host = NULL
+SessionHelper::$_log = NULL
+SessionHelper::$cookieLifeTime = 788940000
+SessionHelper::$base = ""
+SessionHelper::$webroot = "/"
+SessionHelper::$here = NULL
+SessionHelper::$params = array
+SessionHelper::$action = NULL
+SessionHelper::$data = array
+SessionHelper::$themeWeb = NULL
+SessionHelper::$plugin = NULL
+$server	=	"agabe.com"
+$endereco	=	"/css/jcarousel.css"
+$servidor	=	"http://agabe.com/css/jcarousel.css"
+$num	=	1</pre><div id="CakeErrorCode5" class="cake-code-dump" style="display: none;"><pre><code><span style="color: #000000">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;ul&gt;</span></code>
+<code><span style="color: #000000">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;<span style="color: #0000BB">&lt;?php&nbsp;</span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">$html</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">link</span><span style="color: #007700">(</span><span style="color: #0000BB">$fixedTitles</span><span style="color: #007700">[</span><span style="color: #DD0000">'guia_de_solucoes_de_problemas'</span><span style="color: #007700">],&nbsp;array(</span><span style="color: #DD0000">'controller'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">'fixedPages'</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'action'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">'guia_de_solucoes_de_problemas'</span><span style="color: #007700">));&nbsp;</span><span style="color: #0000BB">?&gt;</span>&lt;/li&gt;</span></code>
+<span class="code-highlight"><code><span style="color: #000000">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;<span style="color: #0000BB">&lt;?php&nbsp;</span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">$html</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">link</span><span style="color: #007700">(</span><span style="color: #0000BB">$fixedTitles</span><span style="color: #007700">[</span><span style="color: #DD0000">'perguntas_frequentes'</span><span style="color: #007700">],&nbsp;array(</span><span style="color: #DD0000">'controller'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">'fixedPages'</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'action'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">'perguntas_frequentes'</span><span style="color: #007700">));&nbsp;</span><span style="color: #0000BB">?&gt;</span>&lt;/li&gt;</span></code></span>
+</pre></div><pre>include - APP/views/layouts/default.ctp, line 229
+View::_render() - CORE/cake/libs/view/view.php, line 665
+View::renderLayout() - CORE/cake/libs/view/view.php, line 453
+View::render() - CORE/cake/libs/view/view.php, line 387
+Controller::render() - CORE/cake/libs/controller/controller.php, line 808
+ErrorHandler::_outputMessage() - CORE/cake/libs/error.php, line 372
+ErrorHandler::missingController() - CORE/cake/libs/error.php, line 173
+Object::dispatchMethod() - CORE/cake/libs/object.php, line 117
+ErrorHandler::__construct() - CORE/cake/libs/error.php, line 117
+Object::cakeError() - CORE/cake/libs/object.php, line 202
+Dispatcher::dispatch() - CORE/cake/dispatcher.php, line 135
+[main] - APP/webroot/index.php, line 87</pre></div><a href="/fixedPages/perguntas_frequentes"></a></li>
+								<li><a href="/videos">Treinamento Virtual</a></li>
+								<li><a href="/flyers">Literatura Técnica</a></li>
+								<li><a href="/fixedPages/manual_agabe">Manual Agabê</a></li>
+								<li><a href="/articles">Artigos Técnicos</a></li>
+								<li><a href="/mailers/fichas_de_seguranca">Fichas de Segurança</a></li>
+								<li><a href="/fixedPages/frases_de_risco_e_seguranca">Frases de Risco e Segurança</a></li>
+        		</ul>
+    		</li>
+    		<li class="btn5"><a href="#">Novidades<a href="/css/jcarousel.css"></a></a>		
+				<ul>
+        			<li><a href="/events/groups">Eventos</a></li>
+            		<li><a href="/noticias/ ">Notícias</a></li>
+					
+<pre class="cake-debug">
+<a href='javascript:void(0);' onclick='document.getElementById("CakeStackTrace6").style.display = (document.getElementById("CakeStackTrace6").style.display == "none" ? "" : "none")'><b>Notice</b> (8)</a>: Undefined variable: latestReleases [<b>APP/views/layouts/default.ctp</b>, line <b>242</b>]
+</pre>
+<div id="CakeStackTrace6" class="cake-stack-trace" style="display: none;"><a href='javascript:void(0);' onclick='document.getElementById("CakeErrorCode6").style.display = (document.getElementById("CakeErrorCode6").style.display == "none" ? "" : "none")'>Code</a> | <a href='javascript:void(0);' onclick='document.getElementById("CakeErrorContext6").style.display = (document.getElementById("CakeErrorContext6").style.display == "none" ? "" : "none")'>Context</a><pre id="CakeErrorContext6" class="cake-context" style="display: none;">$___viewFn	=	"/home/agabe/public_html/app/views/layouts/default.ctp"
+$___dataForView	=	array(
+	"controller" => "CssController",
+	"controllerName" => "Css",
+	"title_for_layout" => "Missing Controller",
+	"content_for_layout" => "&lt;h2&gt;Missing Controller&lt;/h2&gt;
+&lt;p class=&quot;error&quot;&gt;
+	&lt;strong&gt;Error: &lt;/strong&gt;
+	&lt;em&gt;CssController&lt;/em&gt; could not be found.&lt;/p&gt;
+&lt;p class=&quot;error&quot;&gt;
+	&lt;strong&gt;Error: &lt;/strong&gt;
+	Create the class &lt;em&gt;CssController&lt;/em&gt; below in file: app/controllers/css_controller.php&lt;/p&gt;
+&lt;pre&gt;
+&amp;lt;?php
+class CssController extends AppController {
+
+	var $name = &#039;Css&#039;;
+}
+?&amp;gt;
+&lt;/pre&gt;
+&lt;p class=&quot;notice&quot;&gt;
+	&lt;strong&gt;Notice: &lt;/strong&gt;
+	If you want to customize this error message, create app/views/errors/missing_controller.ctp&lt;/p&gt;",
+	"scripts_for_layout" => "",
+	"cakeDebug" => "",
+	"html" => HtmlHelper
+HtmlHelper::$tags = array
+HtmlHelper::$base = ""
+HtmlHelper::$here = NULL
+HtmlHelper::$params = array
+HtmlHelper::$action = NULL
+HtmlHelper::$data = array
+HtmlHelper::$_crumbs = array
+HtmlHelper::$__docTypes = array
+HtmlHelper::$helpers = NULL
+HtmlHelper::$webroot = "/"
+HtmlHelper::$themeWeb = NULL
+HtmlHelper::$plugin = NULL
+HtmlHelper::$namedArgs = NULL
+HtmlHelper::$argSeparator = NULL
+HtmlHelper::$validationErrors = NULL
+HtmlHelper::$__tainted = NULL
+HtmlHelper::$__cleaned = NULL
+HtmlHelper::$_log = NULL,
+	"form" => FormHelper
+FormHelper::$helpers = array
+FormHelper::$fieldset = array
+FormHelper::$__options = array
+FormHelper::$fields = array
+FormHelper::$requestType = "post"
+FormHelper::$base = ""
+FormHelper::$webroot = "/"
+FormHelper::$themeWeb = NULL
+FormHelper::$here = NULL
+FormHelper::$params = array
+FormHelper::$action = NULL
+FormHelper::$plugin = NULL
+FormHelper::$data = array
+FormHelper::$namedArgs = NULL
+FormHelper::$argSeparator = NULL
+FormHelper::$validationErrors = NULL
+FormHelper::$tags = array
+FormHelper::$__tainted = NULL
+FormHelper::$__cleaned = NULL
+FormHelper::$_log = NULL
+FormHelper::$Html = HtmlHelper object,
+	"javascript" => JavascriptHelper
+JavascriptHelper::$useNative = true
+JavascriptHelper::$enabled = true
+JavascriptHelper::$safe = false
+JavascriptHelper::$tags = array
+JavascriptHelper::$_blockOptions = array
+JavascriptHelper::$_cachedEvents = array
+JavascriptHelper::$_cacheEvents = false
+JavascriptHelper::$_cacheToFile = false
+JavascriptHelper::$_cacheAll = false
+JavascriptHelper::$_rules = array
+JavascriptHelper::$__scriptBuffer = NULL
+JavascriptHelper::$helpers = NULL
+JavascriptHelper::$base = ""
+JavascriptHelper::$webroot = "/"
+JavascriptHelper::$themeWeb = NULL
+JavascriptHelper::$here = NULL
+JavascriptHelper::$params = array
+JavascriptHelper::$action = NULL
+JavascriptHelper::$plugin = NULL
+JavascriptHelper::$data = array
+JavascriptHelper::$namedArgs = NULL
+JavascriptHelper::$argSeparator = NULL
+JavascriptHelper::$validationErrors = NULL
+JavascriptHelper::$__tainted = NULL
+JavascriptHelper::$__cleaned = NULL
+JavascriptHelper::$_log = NULL,
+	"date" => DateHelper
+DateHelper::$helpers = NULL
+DateHelper::$base = ""
+DateHelper::$webroot = "/"
+DateHelper::$themeWeb = NULL
+DateHelper::$here = NULL
+DateHelper::$params = array
+DateHelper::$action = NULL
+DateHelper::$plugin = NULL
+DateHelper::$data = array
+DateHelper::$namedArgs = NULL
+DateHelper::$argSeparator = NULL
+DateHelper::$validationErrors = NULL
+DateHelper::$tags = array
+DateHelper::$__tainted = NULL
+DateHelper::$__cleaned = NULL
+DateHelper::$_log = NULL,
+	"session" => SessionHelper
+SessionHelper::$helpers = NULL
+SessionHelper::$__active = true
+SessionHelper::$valid = false
+SessionHelper::$error = false
+SessionHelper::$_userAgent = "9e74af2a14bc382a51e195f422692085"
+SessionHelper::$path = "/"
+SessionHelper::$lastError = NULL
+SessionHelper::$security = NULL
+SessionHelper::$time = 1369411736
+SessionHelper::$sessionTime = false
+SessionHelper::$watchKeys = array
+SessionHelper::$id = NULL
+SessionHelper::$_started = true
+SessionHelper::$host = NULL
+SessionHelper::$_log = NULL
+SessionHelper::$cookieLifeTime = 788940000
+SessionHelper::$base = ""
+SessionHelper::$webroot = "/"
+SessionHelper::$here = NULL
+SessionHelper::$params = array
+SessionHelper::$action = NULL
+SessionHelper::$data = array
+SessionHelper::$themeWeb = NULL
+SessionHelper::$plugin = NULL
+)
+$loadHelpers	=	false
+$cached	=	true
+$loadedHelpers	=	array()
+$controller	=	"CssController"
+$controllerName	=	"Css"
+$title_for_layout	=	"Missing Controller"
+$content_for_layout	=	"&lt;h2&gt;Missing Controller&lt;/h2&gt;
+&lt;p class=&quot;error&quot;&gt;
+	&lt;strong&gt;Error: &lt;/strong&gt;
+	&lt;em&gt;CssController&lt;/em&gt; could not be found.&lt;/p&gt;
+&lt;p class=&quot;error&quot;&gt;
+	&lt;strong&gt;Error: &lt;/strong&gt;
+	Create the class &lt;em&gt;CssController&lt;/em&gt; below in file: app/controllers/css_controller.php&lt;/p&gt;
+&lt;pre&gt;
+&amp;lt;?php
+class CssController extends AppController {
+
+	var $name = &#039;Css&#039;;
+}
+?&amp;gt;
+&lt;/pre&gt;
+&lt;p class=&quot;notice&quot;&gt;
+	&lt;strong&gt;Notice: &lt;/strong&gt;
+	If you want to customize this error message, create app/views/errors/missing_controller.ctp&lt;/p&gt;"
+$scripts_for_layout	=	""
+$cakeDebug	=	""
+$html	=	HtmlHelper
+HtmlHelper::$tags = array
+HtmlHelper::$base = ""
+HtmlHelper::$here = NULL
+HtmlHelper::$params = array
+HtmlHelper::$action = NULL
+HtmlHelper::$data = array
+HtmlHelper::$_crumbs = array
+HtmlHelper::$__docTypes = array
+HtmlHelper::$helpers = NULL
+HtmlHelper::$webroot = "/"
+HtmlHelper::$themeWeb = NULL
+HtmlHelper::$plugin = NULL
+HtmlHelper::$namedArgs = NULL
+HtmlHelper::$argSeparator = NULL
+HtmlHelper::$validationErrors = NULL
+HtmlHelper::$__tainted = NULL
+HtmlHelper::$__cleaned = NULL
+HtmlHelper::$_log = NULL
+$form	=	FormHelper
+FormHelper::$helpers = array
+FormHelper::$fieldset = array
+FormHelper::$__options = array
+FormHelper::$fields = array
+FormHelper::$requestType = "post"
+FormHelper::$base = ""
+FormHelper::$webroot = "/"
+FormHelper::$themeWeb = NULL
+FormHelper::$here = NULL
+FormHelper::$params = array
+FormHelper::$action = NULL
+FormHelper::$plugin = NULL
+FormHelper::$data = array
+FormHelper::$namedArgs = NULL
+FormHelper::$argSeparator = NULL
+FormHelper::$validationErrors = NULL
+FormHelper::$tags = array
+FormHelper::$__tainted = NULL
+FormHelper::$__cleaned = NULL
+FormHelper::$_log = NULL
+FormHelper::$Html = HtmlHelper object
+$javascript	=	JavascriptHelper
+JavascriptHelper::$useNative = true
+JavascriptHelper::$enabled = true
+JavascriptHelper::$safe = false
+JavascriptHelper::$tags = array
+JavascriptHelper::$_blockOptions = array
+JavascriptHelper::$_cachedEvents = array
+JavascriptHelper::$_cacheEvents = false
+JavascriptHelper::$_cacheToFile = false
+JavascriptHelper::$_cacheAll = false
+JavascriptHelper::$_rules = array
+JavascriptHelper::$__scriptBuffer = NULL
+JavascriptHelper::$helpers = NULL
+JavascriptHelper::$base = ""
+JavascriptHelper::$webroot = "/"
+JavascriptHelper::$themeWeb = NULL
+JavascriptHelper::$here = NULL
+JavascriptHelper::$params = array
+JavascriptHelper::$action = NULL
+JavascriptHelper::$plugin = NULL
+JavascriptHelper::$data = array
+JavascriptHelper::$namedArgs = NULL
+JavascriptHelper::$argSeparator = NULL
+JavascriptHelper::$validationErrors = NULL
+JavascriptHelper::$__tainted = NULL
+JavascriptHelper::$__cleaned = NULL
+JavascriptHelper::$_log = NULL
+$date	=	DateHelper
+DateHelper::$helpers = NULL
+DateHelper::$base = ""
+DateHelper::$webroot = "/"
+DateHelper::$themeWeb = NULL
+DateHelper::$here = NULL
+DateHelper::$params = array
+DateHelper::$action = NULL
+DateHelper::$plugin = NULL
+DateHelper::$data = array
+DateHelper::$namedArgs = NULL
+DateHelper::$argSeparator = NULL
+DateHelper::$validationErrors = NULL
+DateHelper::$tags = array
+DateHelper::$__tainted = NULL
+DateHelper::$__cleaned = NULL
+DateHelper::$_log = NULL
+$session	=	SessionHelper
+SessionHelper::$helpers = NULL
+SessionHelper::$__active = true
+SessionHelper::$valid = false
+SessionHelper::$error = false
+SessionHelper::$_userAgent = "9e74af2a14bc382a51e195f422692085"
+SessionHelper::$path = "/"
+SessionHelper::$lastError = NULL
+SessionHelper::$security = NULL
+SessionHelper::$time = 1369411736
+SessionHelper::$sessionTime = false
+SessionHelper::$watchKeys = array
+SessionHelper::$id = NULL
+SessionHelper::$_started = true
+SessionHelper::$host = NULL
+SessionHelper::$_log = NULL
+SessionHelper::$cookieLifeTime = 788940000
+SessionHelper::$base = ""
+SessionHelper::$webroot = "/"
+SessionHelper::$here = NULL
+SessionHelper::$params = array
+SessionHelper::$action = NULL
+SessionHelper::$data = array
+SessionHelper::$themeWeb = NULL
+SessionHelper::$plugin = NULL
+$server	=	"agabe.com"
+$endereco	=	"/css/jcarousel.css"
+$servidor	=	"http://agabe.com/css/jcarousel.css"
+$num	=	1</pre><div id="CakeErrorCode6" class="cake-code-dump" style="display: none;"><pre><code><span style="color: #000000">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;<span style="color: #0000BB">&lt;?php&nbsp;</span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">$html</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">link</span><span style="color: #007700">(</span><span style="color: #0000BB">__</span><span style="color: #007700">(</span><span style="color: #DD0000">'Eventos'</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">true</span><span style="color: #007700">),array(</span><span style="color: #DD0000">'controller'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">'events'</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'action'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">'groups'</span><span style="color: #007700">));&nbsp;</span><span style="color: #0000BB">?&gt;</span>&lt;/li&gt;</span></code>
+<code><span style="color: #000000">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;<span style="color: #0000BB">&lt;?php&nbsp;</span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">$html</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">link</span><span style="color: #007700">(</span><span style="color: #0000BB">__</span><span style="color: #007700">(</span><span style="color: #DD0000">'Notícias'</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">true</span><span style="color: #007700">),array(</span><span style="color: #DD0000">'controller'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">'noticias'</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'action'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">'&nbsp;'</span><span style="color: #007700">));&nbsp;</span><span style="color: #0000BB">?&gt;</span>&lt;/li&gt;</span></code>
+<span class="code-highlight"><code><span style="color: #000000">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0000BB">&lt;?php&nbsp;</span><span style="color: #007700">foreach(</span><span style="color: #0000BB">$latestReleases&nbsp;</span><span style="color: #007700">as&nbsp;</span><span style="color: #0000BB">$release</span><span style="color: #007700">)&nbsp;{&nbsp;</span><span style="color: #0000BB">?&gt;</span></span></code></span>
+</pre></div><pre>include - APP/views/layouts/default.ctp, line 242
+View::_render() - CORE/cake/libs/view/view.php, line 665
+View::renderLayout() - CORE/cake/libs/view/view.php, line 453
+View::render() - CORE/cake/libs/view/view.php, line 387
+Controller::render() - CORE/cake/libs/controller/controller.php, line 808
+ErrorHandler::_outputMessage() - CORE/cake/libs/error.php, line 372
+ErrorHandler::missingController() - CORE/cake/libs/error.php, line 173
+Object::dispatchMethod() - CORE/cake/libs/object.php, line 117
+ErrorHandler::__construct() - CORE/cake/libs/error.php, line 117
+Object::cakeError() - CORE/cake/libs/object.php, line 202
+Dispatcher::dispatch() - CORE/cake/dispatcher.php, line 135
+[main] - APP/webroot/index.php, line 87</pre></div>
+<pre class="cake-debug">
+<a href='javascript:void(0);' onclick='document.getElementById("CakeStackTrace7").style.display = (document.getElementById("CakeStackTrace7").style.display == "none" ? "" : "none")'><b>Warning</b> (2)</a>: Invalid argument supplied for foreach() [<b>APP/views/layouts/default.ctp</b>, line <b>242</b>]
+</pre>
+<div id="CakeStackTrace7" class="cake-stack-trace" style="display: none;"><a href='javascript:void(0);' onclick='document.getElementById("CakeErrorCode7").style.display = (document.getElementById("CakeErrorCode7").style.display == "none" ? "" : "none")'>Code</a> | <a href='javascript:void(0);' onclick='document.getElementById("CakeErrorContext7").style.display = (document.getElementById("CakeErrorContext7").style.display == "none" ? "" : "none")'>Context</a><pre id="CakeErrorContext7" class="cake-context" style="display: none;">$___viewFn	=	"/home/agabe/public_html/app/views/layouts/default.ctp"
+$___dataForView	=	array(
+	"controller" => "CssController",
+	"controllerName" => "Css",
+	"title_for_layout" => "Missing Controller",
+	"content_for_layout" => "&lt;h2&gt;Missing Controller&lt;/h2&gt;
+&lt;p class=&quot;error&quot;&gt;
+	&lt;strong&gt;Error: &lt;/strong&gt;
+	&lt;em&gt;CssController&lt;/em&gt; could not be found.&lt;/p&gt;
+&lt;p class=&quot;error&quot;&gt;
+	&lt;strong&gt;Error: &lt;/strong&gt;
+	Create the class &lt;em&gt;CssController&lt;/em&gt; below in file: app/controllers/css_controller.php&lt;/p&gt;
+&lt;pre&gt;
+&amp;lt;?php
+class CssController extends AppController {
+
+	var $name = &#039;Css&#039;;
+}
+?&amp;gt;
+&lt;/pre&gt;
+&lt;p class=&quot;notice&quot;&gt;
+	&lt;strong&gt;Notice: &lt;/strong&gt;
+	If you want to customize this error message, create app/views/errors/missing_controller.ctp&lt;/p&gt;",
+	"scripts_for_layout" => "",
+	"cakeDebug" => "",
+	"html" => HtmlHelper
+HtmlHelper::$tags = array
+HtmlHelper::$base = ""
+HtmlHelper::$here = NULL
+HtmlHelper::$params = array
+HtmlHelper::$action = NULL
+HtmlHelper::$data = array
+HtmlHelper::$_crumbs = array
+HtmlHelper::$__docTypes = array
+HtmlHelper::$helpers = NULL
+HtmlHelper::$webroot = "/"
+HtmlHelper::$themeWeb = NULL
+HtmlHelper::$plugin = NULL
+HtmlHelper::$namedArgs = NULL
+HtmlHelper::$argSeparator = NULL
+HtmlHelper::$validationErrors = NULL
+HtmlHelper::$__tainted = NULL
+HtmlHelper::$__cleaned = NULL
+HtmlHelper::$_log = NULL,
+	"form" => FormHelper
+FormHelper::$helpers = array
+FormHelper::$fieldset = array
+FormHelper::$__options = array
+FormHelper::$fields = array
+FormHelper::$requestType = "post"
+FormHelper::$base = ""
+FormHelper::$webroot = "/"
+FormHelper::$themeWeb = NULL
+FormHelper::$here = NULL
+FormHelper::$params = array
+FormHelper::$action = NULL
+FormHelper::$plugin = NULL
+FormHelper::$data = array
+FormHelper::$namedArgs = NULL
+FormHelper::$argSeparator = NULL
+FormHelper::$validationErrors = NULL
+FormHelper::$tags = array
+FormHelper::$__tainted = NULL
+FormHelper::$__cleaned = NULL
+FormHelper::$_log = NULL
+FormHelper::$Html = HtmlHelper object,
+	"javascript" => JavascriptHelper
+JavascriptHelper::$useNative = true
+JavascriptHelper::$enabled = true
+JavascriptHelper::$safe = false
+JavascriptHelper::$tags = array
+JavascriptHelper::$_blockOptions = array
+JavascriptHelper::$_cachedEvents = array
+JavascriptHelper::$_cacheEvents = false
+JavascriptHelper::$_cacheToFile = false
+JavascriptHelper::$_cacheAll = false
+JavascriptHelper::$_rules = array
+JavascriptHelper::$__scriptBuffer = NULL
+JavascriptHelper::$helpers = NULL
+JavascriptHelper::$base = ""
+JavascriptHelper::$webroot = "/"
+JavascriptHelper::$themeWeb = NULL
+JavascriptHelper::$here = NULL
+JavascriptHelper::$params = array
+JavascriptHelper::$action = NULL
+JavascriptHelper::$plugin = NULL
+JavascriptHelper::$data = array
+JavascriptHelper::$namedArgs = NULL
+JavascriptHelper::$argSeparator = NULL
+JavascriptHelper::$validationErrors = NULL
+JavascriptHelper::$__tainted = NULL
+JavascriptHelper::$__cleaned = NULL
+JavascriptHelper::$_log = NULL,
+	"date" => DateHelper
+DateHelper::$helpers = NULL
+DateHelper::$base = ""
+DateHelper::$webroot = "/"
+DateHelper::$themeWeb = NULL
+DateHelper::$here = NULL
+DateHelper::$params = array
+DateHelper::$action = NULL
+DateHelper::$plugin = NULL
+DateHelper::$data = array
+DateHelper::$namedArgs = NULL
+DateHelper::$argSeparator = NULL
+DateHelper::$validationErrors = NULL
+DateHelper::$tags = array
+DateHelper::$__tainted = NULL
+DateHelper::$__cleaned = NULL
+DateHelper::$_log = NULL,
+	"session" => SessionHelper
+SessionHelper::$helpers = NULL
+SessionHelper::$__active = true
+SessionHelper::$valid = false
+SessionHelper::$error = false
+SessionHelper::$_userAgent = "9e74af2a14bc382a51e195f422692085"
+SessionHelper::$path = "/"
+SessionHelper::$lastError = NULL
+SessionHelper::$security = NULL
+SessionHelper::$time = 1369411736
+SessionHelper::$sessionTime = false
+SessionHelper::$watchKeys = array
+SessionHelper::$id = NULL
+SessionHelper::$_started = true
+SessionHelper::$host = NULL
+SessionHelper::$_log = NULL
+SessionHelper::$cookieLifeTime = 788940000
+SessionHelper::$base = ""
+SessionHelper::$webroot = "/"
+SessionHelper::$here = NULL
+SessionHelper::$params = array
+SessionHelper::$action = NULL
+SessionHelper::$data = array
+SessionHelper::$themeWeb = NULL
+SessionHelper::$plugin = NULL
+)
+$loadHelpers	=	false
+$cached	=	true
+$loadedHelpers	=	array()
+$controller	=	"CssController"
+$controllerName	=	"Css"
+$title_for_layout	=	"Missing Controller"
+$content_for_layout	=	"&lt;h2&gt;Missing Controller&lt;/h2&gt;
+&lt;p class=&quot;error&quot;&gt;
+	&lt;strong&gt;Error: &lt;/strong&gt;
+	&lt;em&gt;CssController&lt;/em&gt; could not be found.&lt;/p&gt;
+&lt;p class=&quot;error&quot;&gt;
+	&lt;strong&gt;Error: &lt;/strong&gt;
+	Create the class &lt;em&gt;CssController&lt;/em&gt; below in file: app/controllers/css_controller.php&lt;/p&gt;
+&lt;pre&gt;
+&amp;lt;?php
+class CssController extends AppController {
+
+	var $name = &#039;Css&#039;;
+}
+?&amp;gt;
+&lt;/pre&gt;
+&lt;p class=&quot;notice&quot;&gt;
+	&lt;strong&gt;Notice: &lt;/strong&gt;
+	If you want to customize this error message, create app/views/errors/missing_controller.ctp&lt;/p&gt;"
+$scripts_for_layout	=	""
+$cakeDebug	=	""
+$html	=	HtmlHelper
+HtmlHelper::$tags = array
+HtmlHelper::$base = ""
+HtmlHelper::$here = NULL
+HtmlHelper::$params = array
+HtmlHelper::$action = NULL
+HtmlHelper::$data = array
+HtmlHelper::$_crumbs = array
+HtmlHelper::$__docTypes = array
+HtmlHelper::$helpers = NULL
+HtmlHelper::$webroot = "/"
+HtmlHelper::$themeWeb = NULL
+HtmlHelper::$plugin = NULL
+HtmlHelper::$namedArgs = NULL
+HtmlHelper::$argSeparator = NULL
+HtmlHelper::$validationErrors = NULL
+HtmlHelper::$__tainted = NULL
+HtmlHelper::$__cleaned = NULL
+HtmlHelper::$_log = NULL
+$form	=	FormHelper
+FormHelper::$helpers = array
+FormHelper::$fieldset = array
+FormHelper::$__options = array
+FormHelper::$fields = array
+FormHelper::$requestType = "post"
+FormHelper::$base = ""
+FormHelper::$webroot = "/"
+FormHelper::$themeWeb = NULL
+FormHelper::$here = NULL
+FormHelper::$params = array
+FormHelper::$action = NULL
+FormHelper::$plugin = NULL
+FormHelper::$data = array
+FormHelper::$namedArgs = NULL
+FormHelper::$argSeparator = NULL
+FormHelper::$validationErrors = NULL
+FormHelper::$tags = array
+FormHelper::$__tainted = NULL
+FormHelper::$__cleaned = NULL
+FormHelper::$_log = NULL
+FormHelper::$Html = HtmlHelper object
+$javascript	=	JavascriptHelper
+JavascriptHelper::$useNative = true
+JavascriptHelper::$enabled = true
+JavascriptHelper::$safe = false
+JavascriptHelper::$tags = array
+JavascriptHelper::$_blockOptions = array
+JavascriptHelper::$_cachedEvents = array
+JavascriptHelper::$_cacheEvents = false
+JavascriptHelper::$_cacheToFile = false
+JavascriptHelper::$_cacheAll = false
+JavascriptHelper::$_rules = array
+JavascriptHelper::$__scriptBuffer = NULL
+JavascriptHelper::$helpers = NULL
+JavascriptHelper::$base = ""
+JavascriptHelper::$webroot = "/"
+JavascriptHelper::$themeWeb = NULL
+JavascriptHelper::$here = NULL
+JavascriptHelper::$params = array
+JavascriptHelper::$action = NULL
+JavascriptHelper::$plugin = NULL
+JavascriptHelper::$data = array
+JavascriptHelper::$namedArgs = NULL
+JavascriptHelper::$argSeparator = NULL
+JavascriptHelper::$validationErrors = NULL
+JavascriptHelper::$__tainted = NULL
+JavascriptHelper::$__cleaned = NULL
+JavascriptHelper::$_log = NULL
+$date	=	DateHelper
+DateHelper::$helpers = NULL
+DateHelper::$base = ""
+DateHelper::$webroot = "/"
+DateHelper::$themeWeb = NULL
+DateHelper::$here = NULL
+DateHelper::$params = array
+DateHelper::$action = NULL
+DateHelper::$plugin = NULL
+DateHelper::$data = array
+DateHelper::$namedArgs = NULL
+DateHelper::$argSeparator = NULL
+DateHelper::$validationErrors = NULL
+DateHelper::$tags = array
+DateHelper::$__tainted = NULL
+DateHelper::$__cleaned = NULL
+DateHelper::$_log = NULL
+$session	=	SessionHelper
+SessionHelper::$helpers = NULL
+SessionHelper::$__active = true
+SessionHelper::$valid = false
+SessionHelper::$error = false
+SessionHelper::$_userAgent = "9e74af2a14bc382a51e195f422692085"
+SessionHelper::$path = "/"
+SessionHelper::$lastError = NULL
+SessionHelper::$security = NULL
+SessionHelper::$time = 1369411736
+SessionHelper::$sessionTime = false
+SessionHelper::$watchKeys = array
+SessionHelper::$id = NULL
+SessionHelper::$_started = true
+SessionHelper::$host = NULL
+SessionHelper::$_log = NULL
+SessionHelper::$cookieLifeTime = 788940000
+SessionHelper::$base = ""
+SessionHelper::$webroot = "/"
+SessionHelper::$here = NULL
+SessionHelper::$params = array
+SessionHelper::$action = NULL
+SessionHelper::$data = array
+SessionHelper::$themeWeb = NULL
+SessionHelper::$plugin = NULL
+$server	=	"agabe.com"
+$endereco	=	"/css/jcarousel.css"
+$servidor	=	"http://agabe.com/css/jcarousel.css"
+$num	=	1</pre><div id="CakeErrorCode7" class="cake-code-dump" style="display: none;"><pre><code><span style="color: #000000">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;<span style="color: #0000BB">&lt;?php&nbsp;</span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">$html</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">link</span><span style="color: #007700">(</span><span style="color: #0000BB">__</span><span style="color: #007700">(</span><span style="color: #DD0000">'Eventos'</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">true</span><span style="color: #007700">),array(</span><span style="color: #DD0000">'controller'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">'events'</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'action'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">'groups'</span><span style="color: #007700">));&nbsp;</span><span style="color: #0000BB">?&gt;</span>&lt;/li&gt;</span></code>
+<code><span style="color: #000000">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;<span style="color: #0000BB">&lt;?php&nbsp;</span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">$html</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">link</span><span style="color: #007700">(</span><span style="color: #0000BB">__</span><span style="color: #007700">(</span><span style="color: #DD0000">'Notícias'</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">true</span><span style="color: #007700">),array(</span><span style="color: #DD0000">'controller'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">'noticias'</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'action'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">'&nbsp;'</span><span style="color: #007700">));&nbsp;</span><span style="color: #0000BB">?&gt;</span>&lt;/li&gt;</span></code>
+<span class="code-highlight"><code><span style="color: #000000">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0000BB">&lt;?php&nbsp;</span><span style="color: #007700">foreach(</span><span style="color: #0000BB">$latestReleases&nbsp;</span><span style="color: #007700">as&nbsp;</span><span style="color: #0000BB">$release</span><span style="color: #007700">)&nbsp;{&nbsp;</span><span style="color: #0000BB">?&gt;</span></span></code></span>
+</pre></div><pre>include - APP/views/layouts/default.ctp, line 242
+View::_render() - CORE/cake/libs/view/view.php, line 665
+View::renderLayout() - CORE/cake/libs/view/view.php, line 453
+View::render() - CORE/cake/libs/view/view.php, line 387
+Controller::render() - CORE/cake/libs/controller/controller.php, line 808
+ErrorHandler::_outputMessage() - CORE/cake/libs/error.php, line 372
+ErrorHandler::missingController() - CORE/cake/libs/error.php, line 173
+Object::dispatchMethod() - CORE/cake/libs/object.php, line 117
+ErrorHandler::__construct() - CORE/cake/libs/error.php, line 117
+Object::cakeError() - CORE/cake/libs/object.php, line 202
+Dispatcher::dispatch() - CORE/cake/dispatcher.php, line 135
+[main] - APP/webroot/index.php, line 87</pre></div>        		</ul>
+    		</li>
+			<li class="btn6"><a href="/fixedPages/serigrafia">Serigrafia</a></li>
+    		<li class="btn7"><a href="/fixedPages/distribuidores">Distribuidores</a>    		</li>
+    		<li class="btn9"><a href="/mailers/fale">Fale Conosco</a></li>
+		</ul>
+	</div>
+	<!-- /topo -->
+	
+	<div id="conteudo">
+		
+		<h2>Missing Controller</h2>
+<p class="error">
+	<strong>Error: </strong>
+	<em>CssController</em> could not be found.</p>
+<p class="error">
+	<strong>Error: </strong>
+	Create the class <em>CssController</em> below in file: app/controllers/css_controller.php</p>
+<pre>
+&lt;?php
+class CssController extends AppController {
+
+	var $name = 'Css';
+}
+?&gt;
+</pre>
+<p class="notice">
+	<strong>Notice: </strong>
+	If you want to customize this error message, create app/views/errors/missing_controller.ctp</p>
+	</div>
+	<!-- /conteudo -->
+	
+	<div id="rodape">
+		<div class="trava">
+			<ul class="menu">
+				<li><a href="/pages/display/mapa">Mapa do Site</a></li>
+				<li> | </li>
+				<li><a href="/pages/display/politica">Política de Privacidade</a></li>
+			</ul>
+			<ul class="social">
+				<li><a href="http://twitter.com/#!/agabeserigrafia" class="twitter">Twitter</a></li>
+				<li><a href="http://www.facebook.com/pages/Agab%C3%AA-Produtos-Serigr%C3%A1ficos-de-Alta-Qualidade/138113559581435" class="facebook">Facebook</a></li>
+				<li><a href="http://www.youtube.com/agabeserigrafia" class="youtube">YouTube</a></li>
+			</ul>
+				<!--<p class="indique"  ><a href="/mailers/indique">Indique a Agabê</a>				</p>-->
+
+            
+            <a href="#"
+			onmouseover="MM_showHideLayers('Initial','','hide','floatbndes','','show')"
+			onmouseout="MM_showHideLayers('Initial','','show','floatbndes','','hide')"
+			onclick="return false">
+			<!--<img class="ajuste_bndes" src="img/layout/bndes2.png" alt="" border="border" /></a> 
+			<div id="floatbndes"> 
+			<img src="img/layout/bndes-grd.png" alt="" border="0" />
+			</div> -->
+                       
+			<div class="endereco">
+				<p id="excecao-endereco">Rua Madre de Deus, 719 - CEP 03119-001 - SP<br />
+                Brasil - (11) 2813-4600 | <a href="mailto:agabe@agabe.com">agabe@agabe.com</a>
+				</p>
+				<p class="easypages">
+					<a href="http://www.trentin.com.br/" target="_blank">
+						<img alt="EasyPages by Trentin" src="/img/layout/rodape-trentin.png">
+					</a>
+				</p>
+			</div>
+		</div>
+	</div>
+	<!-- /rodape -->
+	
+	
+	
+</body>
+</html>

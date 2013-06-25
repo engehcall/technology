@@ -1,0 +1,219 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!-- saved from url=(0077)http://edge.sharethis.com/share5x/index.1ceb10777c1c51c2e7bf9ca649416efc.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>ShareThis</title>
+<script type="text/javascript">
+	var glo_initFrag=document.location.hash;	
+</script>
+<link rel="stylesheet" type="text/css" href="share.c2ddbd15a3850494475643c3fe976fee.css" id="http://w.sharethis.com/share5x/css/share.c2ddbd15a3850494475643c3fe976fee.css"></head>
+<body style="display: block;">
+	<div class="tempCloseX closeX2" id="closeX"></div>
+	<div id="outerContainer">
+		<h2 id="welcomeMsg">Share this with your friends</h2>
+		<h2 id="doneMsg" class="sts-dn">Sharing complete!</h2>
+		<h2 id="moreTitle" class="sts-dn"><span class="">Share this to:</span><a id="lessLink" class="sts-fr">Back to default view</a></h2>
+		<div id="chicklets" class="sts-dn"></div>
+		<div id="mainBody">
+			<div id="greyScreen" class="sts-dn">&nbsp;</div>
+			<div id="errorMsg" class="sts-dn" style="position:absolute;"></div>
+			<div id="preShareScreen">
+				<form id="shareDetails">
+					<div id="emailShareDetails" class="sts-dn">
+						<div id="captcha"></div>
+						<div id="recents" class="sts-dn">
+							<span class="recent_label">Last used:</span>
+							<span id="recents_list"></span>
+						</div>
+						<div id="toField"><label for="txtYourAddr">To:</label><textarea name="txtYourAddr" autocomplete="OFF" id="txtYourAddr" class="text" wrap="soft"></textarea><span id="importBox"><span>Import contacts</span><span class="importServices sts-dib sts-fr"><a id="import_contacts_link_google">Google </a> | <a id="import_contacts_link_yahoo"> Yahoo! </a></span></span><div id="contactsBox">&nbsp;</div></div>
+						<div id="fromField"><label for="txtFromAddr">From:</label><input type="text" autocomplete="off" class="text" id="txtFromAddr" name="txtFromAddr"></div>
+					</div>
+					<textarea id="shareMessage" class="" name="shareMessage" maxlength="2000" placeholder="Write your comment here...">Write your comment here...</textarea>
+					<span class="sts-fr sts-dn" id="charCounter">117</span>
+					<img id="captchaImg" alt="Spam Prevention: No Bots Allowed." class="sts-dn">
+					<a class="ctaButton sts-dn" id="cancelButton">Cancel</a>
+					<a class="ctaButton sts-dn" id="captchaButton">Submit</a>
+				</form>
+				<img id="loadingUrlInfo" alt="Loading..">
+				<div id="articleDetails" class="sts-dn">
+					<a class="imgLink sts-fl"><img id="thumbnail"></a>
+					<div class="sts-fr sts-oh">
+						<h3 id="headline"></h3>
+						<p id="snippet"></p>
+						<a id="url" target="_blank"></a>
+					</div>
+					<div class="sts-cb">&nbsp;</div>
+				</div>
+				<div id="extraInfo">
+					<em id="helpText">Pick one or more destinations:</em>
+					<span id="friendsWall" class="sts-fr sts-dn">
+						<a id="postFriendsLink">Post to a friend's Facebook wall</a>
+						<span id="friendsInputWrapper" class="sts-dn">
+							<input type="text" autocomplete="off" id="txtFriendsName" name="txtFriendsName">
+							<a class="tempWidgetIcons" id="cancelFriendsWall">&nbsp;</a>
+						</span>
+						<div id="friendsBox">&nbsp;</div>
+					</span>
+				</div>
+			</div>
+		<!--	<div id="thruScreen" class="sts-dn">&nbsp;</div> -->
+			<div id="doneScreen" class="sts-dn">
+				<p id="successMsg"><span id="sharedMsg">Your message was successfully shared!</span><a id="againLink" class="widgetIcons" title="Share Again">Share again</a><span id="sharedServices"></span><span id="facebookError" class="sts-dn">Your Facebook authorization has expired. <span style="color:#35B5EF;cursor:pointer;" onclick="shareWidget.beginOAuth(&#39;facebook&#39;)">Click here to log in</span>.</span></p>
+				<img id="loadingRelated" alt="Loading..">
+				<div id="relatedShares" class="sts-dn">
+					<h2>Most Popular Articles</h2>
+					<ul id="articleList"></ul>
+				</div>
+			</div>
+		</div>
+		<div id="serviceCTAs" class="sts-cb">
+			<div id="services">
+				<a class="serviceDisplay unchecked" data-value="email" style="margin-left:0;" title="Email this article"><span class="tempCheckIcon">&nbsp;</span><span class="tempBigIcon email">&nbsp;</span></a>
+				<a class="serviceDisplay unchecked" data-value="facebook" title="Share this article on Facebook"><span class="tempCheckIcon">&nbsp;</span><span class="tempBigIcon facebook">&nbsp;</span></a>
+				<a class="serviceDisplay unchecked" data-value="twitter" title="Share this article on Twitter"><span class="tempCheckIcon">&nbsp;</span><span class="tempBigIcon twitter">&nbsp;</span></a>
+				<a class="serviceDisplay unchecked" data-value="linkedin" title="Share this article on LinkedIn"><span class="tempCheckIcon">&nbsp;</span><span class="tempBigIcon linkedin">&nbsp;</span></a>
+				<a id="moreLink" class="tempWidgetIcons" title="More services to share to">More</a>
+			</div>
+			<a class="ctaButton" id="shareButton">Share</a>
+			<a id="cancelLink" class="sts-dn sts-fr">Cancel</a>
+			<div id="serviceNames">
+				<span class="serviceLabel" data-value="email">Email</span>
+				<span class="serviceLabel" data-value="facebook">Facebook</span>
+				<span class="serviceLabel" data-value="twitter">Twitter</span>
+				<span class="serviceLabel" data-value="linkedin">LinkedIn</span>
+			</div>
+		</div>
+		<!-- <div id="adSpace" class="sts-dn">&nbsp;</div> -->
+		<div id="footer" class="sts-cb">
+			<span id="creditLine" class="sts-fl">Powered by <a class="tempWidgetIcons" id="stLabel" target="_blank" rel="external" href="http://www.sharethis.com/"></a><a id="stCause" target="_blank" href="http://edge.sharethis.com/share5x/index.1ceb10777c1c51c2e7bf9ca649416efc.html#">For the Cause</a></span>
+			<span class="sts-fr" id="privacyLinks">
+				<a id="signIn">Sign in</a> <a id="signOut" class="sts-dn">Sign out</a><a href="http://sharethis.com/privacy" target="_blank"> Do not track</a>
+			</span>
+		</div>
+	</div>
+
+	<div id="segmentDiv" style="display:none;"></div>	
+
+	<!-- end of body add js here -->
+	<script src="stcommon.1062cdd5e195219de4ef4f63dd975275.js" type="text/javascript"></script>
+	<script src="st.74340377f4f4d5977e2665828418246f.js" type="text/javascript"></script>
+	<script type="text/javascript">
+	//array of language supported by application
+	var langArray=new Array("es","fr","de","it");
+	//default langauge
+	//var lang='en';
+	
+	var navigatorLanguage = (navigator.language) ? navigator.language: navigator.browserLanguage;
+	
+	var languageVar = navigatorLanguage.substr(0,2).toLowerCase();
+	
+	var subLanguageVar = navigatorLanguage.substr(3,2).toLowerCase();
+
+	/*if(languageVar!='en')
+	{
+		var jsFile = null;
+		//check for language
+		switch (languageVar) {
+		case "ar":
+			jsFile="http://w.sharethis.com/share5x/js/local/ar/message.js";
+			break;
+		case "bg":
+			jsFile="http://w.sharethis.com/share5x/js/local/bg/message.js";
+			break;
+		case "cs":
+			jsFile="http://w.sharethis.com/share5x/js/local/cs/message.js";
+			break;
+		case "da":
+			jsFile="http://w.sharethis.com/share5x/js/local/da/message.js";
+			break;
+		case "zh":
+			jsFile="http://w.sharethis.com/share5x/js/local/cn/message.js";
+			if ("tw" == subLanguageVar) {
+				jsFile="http://w.sharethis.com/share5x/js/local/tw/message.js";
+			}
+			break;
+		case "es":
+			jsFile="http://w.sharethis.com/share5x/js/local/es/message.js";
+			break;
+		case "fr":
+			jsFile="http://w.sharethis.com/share5x/js/local/fr/message.js";
+			break;					
+		case "de":
+			jsFile="http://w.sharethis.com/share5x/js/local/de/message.js";
+			break;
+		case "it":
+			jsFile="http://w.sharethis.com/share5x/js/local/it/message.js";
+			break;
+		case "ja":
+			jsFile="http://w.sharethis.com/share5x/js/local/jp/message.js";
+			break;	
+		case "nl":
+			jsFile="http://w.sharethis.com/share5x/js/local/nl/message.js";
+			break;	
+		case "et":
+			jsFile="http://w.sharethis.com/share5x/js/local/et/message.js";
+			break;
+		case "fi":
+			jsFile="http://w.sharethis.com/share5x/js/local/fi/message.js";
+			break;
+		case "el":
+			jsFile="http://w.sharethis.com/share5x/js/local/el/message.js";
+			break;	
+		case "hu":
+			jsFile="http://w.sharethis.com/share5x/js/local/hu/message.js";
+			break;	
+		case "ko":
+			jsFile="http://w.sharethis.com/share5x/js/local/ko/message.js";
+			break;	
+		case "lv":
+			jsFile="http://w.sharethis.com/share5x/js/local/lv/message.js";
+			break;	
+		case "lt":
+			jsFile="http://w.sharethis.com/share5x/js/local/lt/message.js";
+			break;
+		case "no":
+			jsFile="http://w.sharethis.com/share5x/js/local/no/message.js";
+			break;
+		case "pl":
+			jsFile="http://w.sharethis.com/share5x/js/local/pl/message.js";
+			break;
+		case "ro":
+			jsFile="http://w.sharethis.com/share5x/js/local/ro/message.js";
+			break;
+		case "ru":
+			jsFile="http://w.sharethis.com/share5x/js/local/ru/message.js";
+			break;
+		case "sv":
+			jsFile="http://w.sharethis.com/share5x/js/local/sv/message.js";
+			break;
+		case "th":
+			jsFile="http://w.sharethis.com/share5x/js/local/th/message.js";
+			break;
+		case "tr":
+			jsFile="http://w.sharethis.com/share5x/js/local/tr/message.js";
+			break;
+		case "pt":
+			jsFile="http://w.sharethis.com/share5x/js/local/pt/message.js";
+			break;
+		default: 
+		}
+		//message file to include
+		if (jsFile != null) {
+			document.write('<script type="text/javascript" src="'+ jsFile +'"><\/script>');
+		}
+	}*/
+</script>
+	<script type="text/javascript">
+        function checkKey(evt) {
+            var evt = (evt) ? evt : ((event) ? event : null);
+            var node = (evt.target) ? evt.target : ((evt.srcElement) ? evt.srcElement : null);
+            if ((evt.keyCode == 13) && (node.type == "text") && (node.name == "txtFromAddr")) {
+                return false;
+            }
+        }
+        document.onkeypress = checkKey;
+    </script>
+
+
+
+</body></html>

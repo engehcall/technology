@@ -1,0 +1,716 @@
+/* ===================================================== */
+/* HOME */
+
+	/* ===================================================== */
+	/* HOME - FLOAT */
+	
+	#float {
+		position: absolute;
+		top: 120px;
+		z-index: 100;
+		width: 430px;
+		height: 150px;
+		left: 50%;
+	}
+	
+	/* ===================================================== */
+	/* HOME - BANNER */
+	/*
+	#home #banner {
+		background-repeat: repeat-x;
+		background-image: url(../img/secoes/home-banner-bg.png);
+		height: 331px;
+		text-align: left;
+	}
+	#home #banner .menu {
+		width: 159px;
+		height: 217px;
+		background-repeat: no-repeat;
+		background-image: url(../img/secoes/home-menu-bg.png);
+		position: absolute;
+		top: 46px;
+		left: 2px;
+		z-index: 10;
+	}
+	#home #banner .menu li {
+		font-weight: bold;
+		font-size: 14px;
+		text-transform: uppercase;
+		text-align: center;
+		height: 48px;
+	}
+	#home #banner .menu li a {
+		text-decoration: none;
+	}
+	#home #banner .menu li.primeiro {
+		margin-top: 34px;
+	}
+	#home #banner .blocos h2 {
+		color: #4c4c4c; /* cinza escuro */
+	}
+	
+		/* ===================================================== */
+		/* HOME - BANNER - BLOCOS */
+		
+		#home #banner .blocos div {
+			background-repeat: no-repeat;
+			position: absolute;
+			top: 46px;
+			left: 159px;
+			z-index: 11;
+			width: 740px;
+			height: 217px;
+			overflow: hidden;
+			font-size: 12px;
+			color: #969593; /* cinza */
+			line-height: 14px;
+		}
+		#home #banner .blocos div div.input,
+		#home #banner .blocos div div.submit {
+			position: relative;
+			left: 0px;
+			top: 0px;
+			width: auto;
+			height: auto;
+		}
+		#home #banner .blocos a {
+			color: black;
+			text-decoration: none;
+		}
+		*/
+		/* ===================================================== */
+		/* HOME - BANNER - BLOCOS - PRODUTOS */
+
+		#home #banner #blocoProdutos {
+			display: none;
+			width: 740px;
+			height: 217px;
+			background-image: url(../img/layout/home-banner-produtos-bg.png);
+		}
+		#home #banner #blocoProdutos #porTipo {
+			position: absolute;
+			top: 20px;
+			left: 23px;
+			width: 180px;
+		}
+		#home #banner #blocoProdutos #porAplicacao {
+			position: absolute;
+			top: 20px;
+			left: 235px;
+		}
+		#home #banner #blocoProdutos #porAplicacao select {
+			width: 220px;
+		}
+		#home #banner #blocoProdutos #porNome {
+			position: absolute;
+			top: 20px;
+			left: 494px;
+		}
+		#home #banner #blocoProdutos #porNome #buscaProdutosNome {
+			width: 125px;
+		}		
+		#home #banner #blocoProdutos #porNome .porLetras {
+			width: 200px;
+		}
+		
+		/* ===================================================== */
+		/* HOME - BANNER - BLOCOS - EVENTOS */
+		
+		#home #blocoEventos {
+			background-image: url(../img/layout/home-banner-eventos-bg.png);
+		}
+		#home #blocoEventos h2 {
+			position: relative;
+			top: 20px;
+			left: 23px;
+		}
+		#home #blocoEventos ul {
+			position: relative;
+			top: 22px;
+		}
+		#home #blocoEventos li {
+			float: left;
+			height: 20px;
+			margin-bottom: 0;
+			margin-left: 25px;
+			width: 155px;
+			margin-top:4px;
+		}
+		#home #blocoEventos p {
+			height: 4em;
+			overflow: hidden;
+		}
+
+		
+		/* ===================================================== */
+		/* HOME - BANNER - BLOCOS - NOTICIAS */
+		
+		#home #blocoNoticias {
+			background-image: url(../img/layout/home-banner-noticias-bg.png);
+		}
+
+		#home #blocoNoticias h2 {
+			position: relative;
+			top: 20px;
+			left: 23px;
+		}
+		
+		#home #blocoNoticias ul {
+			position: absolute;
+			top: 46px;
+		}
+		#home #blocoNoticias li {
+			margin-bottom: 10px;
+			width: 326px;
+			height: 28px;
+			overflow: hidden;
+			float: left;
+			margin-left: 23px;
+			margin-right: 20px;
+		}
+		
+		/* ===================================================== */
+		/* HOME - BANNER - BLOCOS - LANCAMENTOS */
+		
+		#home #blocoLancamentos {
+			background-image: url(../img/layout/home-banner-lancamentos-bg.png);
+		}
+		#home #blocoLancamentos h2 {
+			position: absolute;
+			top: 20px;
+			left: 23px;
+		}
+		#home #blocoLancamentos p {
+			position: absolute;
+			top: 46px;
+			left: 23px;
+			width: 250px;
+		}
+
+/* ===================================================== */
+/* PRODUTOS */
+
+	/* ===================================================== */
+	/* PRODUTOS - NAV */
+	
+		/* ===================================================== */
+		/* PRODUTOS - NAV - MENU */
+		
+		#produtos #nav .menu {
+			margin-bottom: 0px;
+		}
+		#produtos #nav a#produtos {
+			background-position: 0px 100%;
+		}
+	
+		#produtos #nav li#navProdutos:hover .sub,
+		#produtos #nav li#navProdutos.over .sub {
+			display: none;
+		}
+		
+		/* ===================================================== */
+		/* PRODUTOS - NAV - SUBMENU */
+		
+		#produtos #nav .submenu {
+			display: block;
+		}
+	
+		#produtos #nav .submenu {
+			position: relative;
+			top: -1px;
+			background-repeat: no-repeat;
+			background-image: url(../img/secoes/produtos-submenu.png);
+			width: 985px;
+			height: 45px;
+			margin-bottom: 1em;
+		}
+		#produtos .listagem ul li {
+			padding-left: 130px;
+		}
+	
+	/* ===================================================== */
+	/* PRODUTOS - PRINCIPAL */
+	
+		/* ===================================================== */
+		/* PRODUTOS - PRINCIPAL - PORTIPO */
+		
+		.portipo ul {
+		}
+		.portipo li {
+			padding-left: 130px;
+			position: relative;
+		}
+		.portipo > ul > li {
+			padding: 0px;
+		}
+		.portipo a {
+			display: block;
+			text-decoration: none;
+		}
+		.portipo span.title {
+			border-color: #e9e9e9;
+			border-style: solid;
+			border-left-width: 0px;
+			border-bottom-width: 2px;
+			border-right-width: 0px;
+			border-top-width: 0px;
+			font-size: 160%;
+			color: #ffa531; /* laranja */
+			display: block;
+			margin-bottom: 0.3em;
+			padding-bottom: 0px;
+			line-height: 1.2;
+			text-transform: none;
+		}
+		.portipo .count {
+			font-size: 80%;
+			color: #dedede;
+		}
+		.portipo .info {
+			height: 1%;
+			overflow: hidden;
+			margin-bottom: 2em;
+		}
+		.portipo .produto {
+			height: 1%;
+			overflow: hidden;
+			padding-left: 130px;
+			margin-bottom: 2em;
+		}
+		.portipo .produto span.title {
+			padding-right: 30px;
+			background-position: right center;
+			background-repeat: no-repeat;
+			background-image: url(../img/secoes/produto-icone.png);
+		}
+		.portipo img {
+			float: left;
+			margin-right: 10px;
+		}
+
+/* ===================================================== */
+/* PRODUTO */
+
+	/* ===================================================== */
+	/* PRODUTO - PRINCIPAL */
+
+	#produto #principal {
+		background-position: left top;
+		background-repeat: no-repeat;
+		background-image: url(../img/layout/cont-produto-principal-default.gif);
+	}
+	#produto #principal.blue {
+		background-image: url(../img/layout/cont-produto-principal-blue.gif);
+	}
+	#produto #principal.green {
+		background-image: url(../img/layout/cont-produto-principal-green.gif);
+	}
+	#produto #principal.lilac {
+		background-image: url(../img/layout/cont-produto-principal-lilac.gif);
+	}
+	#produto #principal.pink {
+		background-image: url(../img/layout/cont-produto-principal-pink.gif);
+	}
+	#produto #principal.purple {
+		background-image: url(../img/layout/cont-produto-principal-purple.gif);
+	}
+	#produto #principal.strong_blue {
+		background-image: url(../img/layout/cont-produto-principal-strong_blue.gif);
+	}
+	#produto #principal.strong_green {
+		background-image: url(../img/layout/cont-produto-principal-strong_green.gif);
+	}
+	#produto #principal.yellow {
+		background-image: url(../img/layout/cont-produto-principal-yellow.gif);
+	}
+	#produto #principal.orange {
+		background-image: url(../img/layout/cont-produto-principal-default.gif);
+	}
+	#produto #principal h2 {
+		padding-right: 25px;
+		padding-top: 28px;
+		float: right;
+		font-weight: bold;
+		font-size: 150%;
+		color: #5a5a5a;
+		border: 0px;
+	}
+	#produto #principal h3 {
+		font-size: 450%;
+		padding-left: 30px;
+		/*font-weight: bold;
+		letter-spacing: -0.1em;*/
+		color: #1e1e1e;
+		top: 0px;
+		margin: 0px;
+		height: 131px;
+		line-height: 131px;
+		margin-bottom: 20px;
+		font-family:Impact;
+		border-top:15px solid #F3F3F3;
+
+	}
+	#produto #principal h3.carousel {
+		font-size: 150%;
+		height: auto;
+		line-height: 2em;
+	}
+	#produto #principal h3 img {
+		margin-top: 40px;
+	}
+	#produto #principal.desc .foto {
+		border: 1px solid #000000;
+		float: right;
+		margin-right: 27px;
+		position: relative;
+
+	}
+	#produto #principal h4 {
+		margin-top: 2em;
+		font-size: 160%;
+		margin-bottom: 1em;
+	}
+	#produto #principal iframe {
+		margin-top: 2em;
+	}
+	#produto #principal.desc .downloads {
+		clear: both;
+		height: 1%;
+		overflow: hidden;
+		padding-top: 1em;
+		padding-bottom: 171px;
+		background-position: left bottom;
+		background-repeat: no-repeat;
+		background-image: url(../img/layout/cont-produto-principal-default2.gif);
+		margin-bottom:0px;
+	}
+	#produto #principal.blue.desc .downloads {
+		background-image: url(../img/layout/cont-produto-principal-blue2.gif);
+	}
+	#produto #principal.green.desc .downloads {
+		background-image: url(../img/layout/cont-produto-principal-green2.gif);
+	}
+	#produto #principal.lilac.desc .downloads {
+		background-image: url(../img/layout/cont-produto-principal-lilac2.gif);
+	}
+	#produto #principal.pink.desc .downloads {
+		background-image: url(../img/layout/cont-produto-principal-pink2.gif);
+	}
+	#produto #principal.purple.desc .downloads {
+		background-image: url(../img/layout/cont-produto-principal-purple2.gif);
+	}
+	#produto #principal.strong_blue.desc .downloads {
+		background-image: url(../img/layout/cont-produto-principal-strong_blue2.gif);
+	}
+	#produto #principal.strong_green.desc .downloads {
+		background-image: url(../img/layout/cont-produto-principal-strong_green2.gif);
+	}
+	#produto #principal.yellow.desc .downloads {
+		background-image: url(../img/layout/cont-produto-principal-yellow2.gif);
+	}
+	#produto #principal.orange.desc .downloads {
+		background-image: url(../img/layout/cont-produto-principal-default2.gif);
+	}
+	
+	#produto #principal.desc .downloads img {
+		display: block;
+		float: left;
+	}
+
+/* ===================================================== */
+/* VIDEOS */
+
+	/* ===================================================== */
+	/* VIDEOS - PRINCIPAL */
+	
+	#principal .videos.index iframe {
+		margin-bottom: 2em;
+	}
+
+/* ===================================================== */
+/* SUPORTE */
+
+	/* ===================================================== */
+	/* SUPORTE - PRINCIPAL */
+
+	#suporte #principal h2 {
+		color: #4a911a; /* verde */
+	}
+
+	/* ===================================================== */
+	/* SUPORTE - FAQ */
+
+	#suporte .faq li {
+		margin-bottom: 0.7em;
+		border-style: solid;
+		border-left-width: 0px;
+		border-bottom-width: 1px;
+		border-right-width: 0px;
+		border-top-width: 0px;
+		position: relative;
+		padding-left: 60px;
+		border-color: #e5e5e5; /* cinza claro */
+	}
+	#suporte .faq b,
+	#suporte .faq strong {
+		color: #4a911a; /* verde */
+		font-size: 400%;
+		display: block;
+		position: absolute;
+		left: 0px;
+		top: -0.3em;
+		font-weight: normal;
+		width: 40px;
+		text-align: right;
+	}
+	
+/* ===================================================== */
+/* APOIO */
+
+	/* ===================================================== */
+	/* APOIO - PRINCIPAL */
+
+	#apoio #principal h2 {
+		color: #4A911A=; /* azul turquesa wow */
+	}
+	
+	/* ===================================================== */
+	/* APOIO - TREINAMENTO */
+
+	#apoio .treinamento li {
+		margin-bottom: 0.7em;
+		border-style: solid;
+		border-left-width: 0px;
+		border-bottom-width: 1px;
+		border-right-width: 0px;
+		border-top-width: 0px;
+		position: relative;
+		padding-left: 60px;
+		border-color: #e5e5e5; /* cinza claro */
+	}
+	#apoio .treinamento b,
+	#apoio .treinamento strong {
+		color: #337898; /* azul turquesa wow */
+		font-size: 400%;
+		display: block;
+		position: absolute;
+		left: 0px;
+		top: -0.3em;
+		font-weight: normal;
+		width: 40px;
+		text-align: right;
+	}
+	#apoio .treinamento h4 {
+		font-size: 116%;
+		text-transform: uppercase;
+	}
+	#apoio .treinamento h4 a {
+		text-decoration: none;
+		padding-top: 2.24em;
+		display: block;
+		color: #337898;
+	}
+	#apoio .treinamento h4 a:hover {
+		color: black;
+	}
+	#apoio .treinamento li div.info {
+		height: 1%;
+		overflow: hidden;
+		margin-bottom: 1em;
+	}
+	#apoio .treinamento h5 {
+		margin-top: 1em;
+		margin-bottom: 1em;
+		color: black;
+	}
+	#apoio .treinamento .flash {
+		float: left;
+		width: 481px;
+	}
+	#apoio .treinamento .menu {
+		float: left;
+		margin-top: 33px;
+		width: 300px;
+	}
+	#apoio .treinamento .menu a {
+		text-decoration: none;
+	}
+	#apoio .treinamento .menu li {
+		padding-left: 0px;
+		margin-left: 30px;
+		margin-bottom: 0.3em;
+		padding-right: 20px;
+	}
+	#apoio .treinamento .menu li ul {
+		margin-bottom: 0px;
+	}
+	#apoio .treinamento .menu li li {
+		margin-bottom: 0px;
+		border: none;
+	}
+	#apoio .treinamento .arquivos {
+		margin-top: 1em;
+		margin-bottom: 0px;
+	}
+	#apoio .treinamento .arquivos li {
+		border: none;
+		float: left;
+		padding-left: 0px;
+		line-height: 29px;
+		margin-right: 18px;
+		background-repeat: no-repeat;
+	}
+	#apoio .treinamento .arquivos li a {
+		font-size: 108%;
+		font-weight: bold;
+		text-transform: uppercase;
+		text-decoration: none;
+	}
+	#apoio .treinamento .arquivos .baixar {
+		padding-left: 20px;
+		background-image: url(../img/secoes/apoio-info-baixar.gif);
+	}
+	#apoio .treinamento .arquivos .baixar {
+		font-size: 108%;
+		font-weight: bold;
+		text-transform: uppercase;
+		color: #337898; /* azul turquesa wow */
+	}
+	#apoio .treinamento .arquivos .baixar a:hover {
+		color: black;
+	}
+	#apoio .treinamento .arquivos .wm {
+		padding-left: 33px;
+		background-image: url(../img/secoes/apoio-info-wm.gif);
+	}
+	#apoio .treinamento .arquivos .qt {
+		padding-left: 33px;
+		background-image: url(../img/secoes/apoio-info-qt.gif);
+	}
+	
+	/* ===================================================== */
+	/* APOIO - LITERATURA */
+
+	#apoio .literatura .lista li {
+		border-style: solid;
+		border-left-width: 0px;
+		border-bottom-width: 1px;
+		border-right-width: 0px;
+		border-top-width: 0px;
+		position: relative;
+		border-color: #e5e5e5; /* cinza claro */
+		clear: both;
+		height: 1%;
+		overflow: hidden;
+		margin-bottom: 1em;
+	}
+	#apoio .literatura h4 {
+		color: #337898; /* azul turquesa wow */
+		font-size: 400%;
+		float: left;
+		font-weight: normal;
+		width: 60px;
+		text-transform: uppercase;
+		line-height: 1em;
+		margin-top: 0px;
+	}
+	#apoio .literatura .lista li ul {
+		float: left;
+	}
+	#apoio .literatura .lista li li {
+		border: none;
+		margin-bottom: 0.2em;
+	}
+
+/* ===================================================== */
+/* EVENTOS */
+
+		body.eventos.index #principal h3 {
+			margin-top: 1em;
+			margin-bottom: 0px;
+		}
+
+/* ===================================================== */
+/* APLICACOES DE PRODUTOS */
+
+		body.product_applications .portipo .produto,
+		body.products .portipo .produto {
+			padding-left: 0px;
+		}
+		body.product_applications #principal h3 {
+			margin-bottom: 1em;
+		}
+		
+/* ===================================================== */
+/* BUSCA */
+
+		form#SearchIndexAddForm {
+			padding-bottom: 0.8em;
+			border-color: #dddddd;
+			border-style: solid;
+			border-left-width: 0px;
+			border-bottom-width: 2px;
+			border-right-width: 0px;
+			border-top-width: 0px;
+			margin-bottom: 1em;
+			height: 1%;
+			overflow: hidden;
+		}
+		form#SearchIndexAddForm label {
+			margin-right: 10px;
+		}
+		form#SearchIndexAddForm div {
+			margin-right: 20px;
+			float: left;
+		}
+		/* CONTEUDO - MAPA LOCALIZAÇÃO */
+		/* MENU - ACCORDION */
+		.accordionButton {
+		font-weight:normal;
+		font-size: 16px;
+		text-transform: uppercase;
+		color: #367996;
+		width: 973px;
+		background-color: #faf9f9;
+		border-bottom-width: 1px;
+		border-bottom-style: solid;
+		border-bottom-color: #c1c1c1;
+		margin-bottom: 2px;
+		height: 35px;
+		line-height: 2em;
+		background-image: url(../img/layout/accordionButton.png);
+		background-repeat: no-repeat;
+		background-position: right center;
+		padding-left: 7px;
+		}
+		.on {
+		background-color: #faf9f9;
+		background-image: url(../img/layout/accordionButton_on.png);
+		background-repeat: no-repeat;
+		background-position: right center;
+		}
+		.accordionButton.over {
+		background-color: #f5f3f3;
+		}
+		.accordionContent {
+		width: 965px;
+		background-color: #FFF;
+		padding: 7px;
+		}
+		.blue {
+		color: #367996;
+		}
+		.green{
+			color:#4A911A;
+			}
+		#ecopage {
+		float: left;
+		margin-left: 180px;
+		}
+		#pdf {
+		float: left;
+		}
+		#conteudo div div#formulario div#principal div.ckeditor{
+			height: 650px;
+		}
+		/* MENU - ACCORDION */
